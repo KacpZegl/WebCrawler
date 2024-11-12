@@ -1,5 +1,4 @@
-# crawler/crawler.py
-
+import re
 import requests
 import time
 from crawler.url_manager import URLManager
@@ -8,24 +7,21 @@ from crawler.lektury_parser import LekturyParser
 from crawler.storage import Storage
 from crawler.robots import RobotsHandler
 from modules.logger import logger
-from config import USER_AGENT
-from urllib.parse import urljoin, urlparse
-from bs4 import BeautifulSoup
+from config import USER_AGENT, MAX_PAGES
+from urllib.parse import urlparse
 
 class WebCrawler:
     def __init__(self, start_urls, max_pages):
         self.url_manager = URLManager(start_urls)
         self.parsers = {
-            'pl.wikipedia.org': WikiParser(),
-            'wolnelektury.pl': LekturyParser(),  # Upewnij się, że domena jest poprawnie przypisana
-            'lektury.gov.pl': LekturyParser(),  # Jeśli używasz również tej domeny
+            'wolnelektury.pl': LekturyParser(),
+            'lektury.gov.pl': LekturyParser(),
         }
         self.storage = Storage()
         self.robots_handler = RobotsHandler()
         self.max_pages = max_pages
         self.headers = {
             'User-Agent': USER_AGENT
-            # Możesz dodać inne nagłówki, jeśli są potrzebne
         }
 
     def fetch(self, url):
@@ -41,6 +37,11 @@ class WebCrawler:
             logger.error(f"Error fetching {url}: {e}")
             return None
 
+    def get_parser(self, domain):
+        if re.match(r'.*\.wikipedia\.org$', domain):
+            return WikiParser()
+        return self.parsers.get(domain)
+
     def start_crawling(self):
         page_count = 0
         while self.url_manager.has_urls() and page_count < self.max_pages:
@@ -49,61 +50,47 @@ class WebCrawler:
                 break
             url, origin_url = next_item
             if url in self.url_manager.visited:
-                continue  # Unikamy ponownego odwiedzania tej samej strony
+                continue
             logger.info(f"Fetching: {url} (Origin: {origin_url})")
 
             domain = urlparse(url).netloc
 
-            # Sprawdzenie robots.txt
             if not self.robots_handler.can_fetch(url, USER_AGENT):
                 logger.info(f"Access denied by robots.txt: {url}")
                 continue
 
             content = self.fetch(url)
             if content:
-                parser = self.parsers.get(domain)
+                parser = self.get_parser(domain)
                 if parser:
-                    data, metadata = parser.parse(content, url)
-                    if data and metadata:
-                        self.storage.save(data, metadata, url)
-                        page_count += 1
-                        self.url_manager.mark_visited(url)
+                    try:
+                        parse_result = parser.parse(content, url)
+                        if not isinstance(parse_result, tuple) or len(parse_result) != 2:
+                            logger.error(f"Parser returned unexpected format for URL: {url}")
+                            continue
+                        data, data_type = parse_result
 
-                        # Dodawanie powiązanych URL-i tylko dla Wikipedii
-                        if domain == 'pl.wikipedia.org':
-                            related_urls = self.extract_related_urls(content, url)
-                            if related_urls:
-                                self.url_manager.add_urls(origin_url, related_urls)
-                    else:
-                        logger.warning(f"Parser returned no data for URL: {url}")
+                        if data_type == 'lektura_link' and data:
+                            remaining = self.max_pages - page_count
+                            if remaining > 0:
+                                self.url_manager.add_urls(url, data[:remaining])
+                            self.url_manager.mark_visited(url)
+                        elif data_type == 'text' and data:
+                            text, metadata = data
+                            self.storage.save(text, metadata, url)
+                            page_count += 1
+                            self.url_manager.mark_visited(url)
+                        else:
+                            logger.warning(f"Parser returned no data for URL: {url}")
+
+                    except ValueError as ve:
+                        logger.error(f"Error unpacking data from parser for URL: {url} - {ve}")
                 else:
                     logger.warning(f"No parser available for domain: {domain}")
             else:
                 logger.warning(f"No content fetched for URL: {url}")
 
-            # Opóźnienie między żądaniami
             time.sleep(1)
 
         logger.info("Crawling completed.")
         logger.info(f"Visited {page_count} pages.")
-
-    def extract_related_urls(self, content, base_url):
-        related_urls = []
-        soup = BeautifulSoup(content, 'html.parser')
-        # Pobieramy linki do kategorii
-        category_elements = soup.select('#mw-normal-catlinks ul li a')
-        for cat_elem in category_elements:
-            cat_href = cat_elem.get('href')
-            full_cat_url = urljoin(base_url, cat_href)
-            # Pobieramy stronę kategorii
-            category_page_content = self.fetch(full_cat_url)
-            if category_page_content:
-                cat_soup = BeautifulSoup(category_page_content, 'html.parser')
-                # Znajdujemy linki do artykułów w kategorii
-                for link in cat_soup.select('.mw-category-group ul li a'):
-                    href = link.get('href')
-                    if href.startswith('/wiki/'):
-                        full_url = urljoin(base_url, href)
-                        if self.parsers['pl.wikipedia.org'].is_valid_url(full_url, base_url):
-                            related_urls.append(full_url)
-        return related_urls

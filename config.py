@@ -1,5 +1,6 @@
 START_URLS = [
-    'https://pl.wikipedia.org/wiki/Chomiczek_syryjski',
+    'https://pl.wikipedia.org/wiki/Zeus',
+    'https://wolnelektury.pl/katalog/lektura/boska-komedia/',
 ]
 
 MAX_PAGES = 6

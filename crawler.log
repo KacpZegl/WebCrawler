@@ -1,0 +1,1574 @@
+2024-11-12 01:05:20,256 - INFO - Fetching: https://wolnelektury.pl/katalog/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:20,306 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:05:20,492 - INFO - Found 2456 lektury links on catalog page.
+2024-11-12 01:05:21,623 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:21,818 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/
+2024-11-12 01:05:21,818 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/
+2024-11-12 01:05:22,819 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/jego-zasady/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:23,158 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/jego-zasady/
+2024-11-12 01:05:23,159 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/jego-zasady/
+2024-11-12 01:05:24,159 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/po-burzy/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:24,362 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/po-burzy/
+2024-11-12 01:05:24,363 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/po-burzy/
+2024-11-12 01:05:25,363 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:25,598 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/
+2024-11-12 01:05:25,598 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/
+2024-11-12 01:05:26,599 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:26,897 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/
+2024-11-12 01:05:26,897 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/
+2024-11-12 01:05:27,898 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/alcott-male-kobietki/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:05:28,266 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/alcott-male-kobietki/
+2024-11-12 01:05:28,266 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/alcott-male-kobietki/
+2024-11-12 01:05:29,267 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:49,010 - INFO - Fetching: https://wolnelektury.pl/katalog/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:49,055 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:21:49,727 - INFO - Found 2456 lektury links on catalog page.
+2024-11-12 01:21:50,727 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:51,148 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/
+2024-11-12 01:21:51,148 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/
+2024-11-12 01:21:52,149 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/jego-zasady/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:52,359 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/jego-zasady/
+2024-11-12 01:21:52,359 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/jego-zasady/
+2024-11-12 01:21:53,360 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/po-burzy/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:53,567 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/po-burzy/
+2024-11-12 01:21:53,568 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/po-burzy/
+2024-11-12 01:21:54,568 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:54,808 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/
+2024-11-12 01:21:54,809 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/
+2024-11-12 01:21:55,810 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:21:56,050 - WARNING - Could not find 'czytaj online' link on page: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/
+2024-11-12 01:21:56,051 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/
+2024-11-12 01:21:57,051 - INFO - Crawling completed.
+2024-11-12 01:21:57,051 - INFO - Visited 0 pages.
+2024-11-12 01:42:09,348 - INFO - Fetching: https://wolnelektury.pl/katalog/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:42:09,397 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:42:10,921 - INFO - Found 2456 lektury links on catalog page.
+2024-11-12 01:42:11,921 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:42:12,374 - WARNING - Could not find <ul class='l-aside__zbiory'> on page: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/
+2024-11-12 01:42:12,374 - INFO - Found 0 sub-lektury links on page.
+2024-11-12 01:42:12,374 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/nachalnik-rozpruwacze/
+2024-11-12 01:42:13,375 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/jego-zasady/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:42:13,692 - WARNING - Could not find <ul class='l-aside__zbiory'> on page: https://wolnelektury.pl/katalog/lektura/jego-zasady/
+2024-11-12 01:42:13,692 - INFO - Found 0 sub-lektury links on page.
+2024-11-12 01:42:13,692 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/jego-zasady/
+2024-11-12 01:42:14,693 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/po-burzy/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:42:14,999 - WARNING - Could not find <ul class='l-aside__zbiory'> on page: https://wolnelektury.pl/katalog/lektura/po-burzy/
+2024-11-12 01:42:15,000 - INFO - Found 0 sub-lektury links on page.
+2024-11-12 01:42:15,000 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/po-burzy/
+2024-11-12 01:42:16,000 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:42:16,407 - WARNING - Could not find <ul class='l-aside__zbiory'> on page: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/
+2024-11-12 01:42:16,408 - INFO - Found 0 sub-lektury links on page.
+2024-11-12 01:42:16,408 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/ajschylos-oresteja/
+2024-11-12 01:42:17,409 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:42:17,807 - WARNING - Could not find <ul class='l-aside__zbiory'> on page: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/
+2024-11-12 01:42:17,807 - INFO - Found 0 sub-lektury links on page.
+2024-11-12 01:42:17,807 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/ajschylos-prometeusz-skowany/
+2024-11-12 01:42:18,808 - INFO - Crawling completed.
+2024-11-12 01:42:18,808 - INFO - Visited 0 pages.
+2024-11-12 01:49:20,616 - INFO - Fetching: https://wolnelektury.pl/katalog/ (Origin: https://wolnelektury.pl/katalog/)
+2024-11-12 01:49:20,663 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:51:12,156 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:51:12,201 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:51:12,609 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 01:51:13,610 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:51:13,775 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 01:51:14,803 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:51:15,266 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 01:51:16,470 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:51:16,921 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 01:51:18,132 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:51:18,732 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 01:51:19,950 - INFO - Crawling completed.
+2024-11-12 01:51:19,951 - INFO - Visited 4 pages.
+2024-11-12 01:53:44,515 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:53:44,563 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:53:45,158 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 01:53:46,159 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:53:46,263 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 01:53:47,292 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:53:47,646 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 01:53:48,848 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:53:49,214 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 01:53:50,431 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:53:50,826 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 01:53:52,043 - INFO - Crawling completed.
+2024-11-12 01:53:52,043 - INFO - Visited 4 pages.
+2024-11-12 01:56:42,818 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:56:42,863 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:56:43,270 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 01:56:44,271 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:56:44,548 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 01:56:45,576 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:56:46,075 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 01:56:47,282 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:56:47,773 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 01:56:48,989 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:56:49,802 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 01:56:51,020 - INFO - Crawling completed.
+2024-11-12 01:56:51,020 - INFO - Visited 4 pages.
+2024-11-12 01:57:34,311 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 01:57:34,454 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 01:57:34,624 - WARNING - No parser available for domain: en.wikipedia.org
+2024-11-12 01:57:35,625 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:57:35,658 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:57:36,042 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 01:57:37,043 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:57:37,129 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 01:57:38,156 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:57:38,492 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 01:57:39,696 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:57:40,091 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 01:57:41,300 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:57:41,695 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 01:57:42,912 - INFO - Crawling completed.
+2024-11-12 01:57:42,913 - INFO - Visited 4 pages.
+2024-11-12 01:58:08,138 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 01:58:08,282 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 01:58:08,451 - WARNING - No parser available for domain: en.wikipedia.org
+2024-11-12 01:58:09,451 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:58:09,484 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 01:58:09,875 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 01:58:10,877 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:58:10,962 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 01:58:11,990 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:58:12,330 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 01:58:13,533 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:58:13,879 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 01:58:15,086 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 01:58:15,491 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 01:58:16,709 - INFO - Crawling completed.
+2024-11-12 01:58:16,709 - INFO - Visited 4 pages.
+2024-11-12 02:00:11,772 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:00:11,946 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:02:04,019 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:02:04,163 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:04:00,761 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:04:00,905 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:04:01,319 - DEBUG - Data Type: text, Data: A wiki wki WIkee is a form of hypertet publication on the internet which is collaboratiely edited and managed by its audience directly through a web browser A typical wiki contains multiple pages that can either be edited by the public or limited to use within an organization for maintaining its internal knowledge base
+
+---
+
+Wikis are powered by wiki software also known as wiki engines Being a form of content management system these differ from other webbased systems such as blog software or static site generators in that the content is created without any defined owner or leader Wikis hae little inherent structure allowing one to emerge according to the needs of the users Wiki engines usually allow content to be written using a lightweight markup language and sometimes edited with the help of a richtet editor There are dozens of different wiki engines in use both standalone and part of other software such as bug tracking systems Some wiki engines are free and opensource whereas others are proprietary Some permit control oer different functions leels of access for eample editing rights may permit changing adding or remoing material Others may permit access without enforcing access control Further rules may be imposed to organize content In addition to hosting userauthored content wikis allow those users to interact hold discussions and collaborate
+
+---
+
+There are hundreds of thousands of wikis in use both public and priate including wikis functioning as knowledge management resources notetaking tools community websites and intranets Ward Cunningham the deeloper of the first wiki software WikiWikiWeb originally described wiki as the simplest online database that could possibly work Wiki pronounced wiki is a Hawaiian word meaning uick
+
+---
+
+The online encyclopedia project Wikipedia is the most popular wikibased website as well being one of the internets most popular websites haing been ranked consistently as such since at least  Wikipedia is not a single wiki but rather a collection of hundreds of wikis with each one pertaining to a specific language The Englishlanguage Wikipedia has the largest collection of articles standing at  as of Noember 
+
+---
+
+### Characteristics
+
+---
+
+In their  book The Wiki Way uick Collaboration on the Web Cunningham and coauthor Bo Leuf described the essence of the wiki concept
+
+---
+
+- A wiki inites all usersnot just epertsto edit any page or to create new pages within the wiki website using only a standard plainanilla Web browser without any etra addons
+- Wiki promotes meaningful topic associations between different pages by making page link creation intuitiely easy and showing whether an intended target page eists or not
+- A wiki is not a carefully crafted site created by eperts and professional writers and designed for casual isitors Instead it seeks to inole the typical isitoruser in an ongoing process of creation and collaboration that constantly changes the website landscape
+
+---
+
+### Source editing
+
+---
+
+Some wikis will present users with an edit button or link directly on the page being iewed This will open an interface for writing formatting and structuring page content The interface may be a source editor which is tetbased and employs a lightweight markup language also known as wikitet wiki markup or wikicode or a isual editor For eample in a source editor starting lines of tet with asterisks could create a bulleted list
+
+---
+
+The synta and features of wiki markup languages for denoting style and structure can ary greatly among implementations Some allow the use of HTMLTooltip Hypertet Markup Language and CSSTooltip Cascading Style Sheets while others preent the use of these to foster uniformity in appearance
+
+---
+
+### Eample of synta
+
+---
+
+A short section of Alices Adentures in Wonderland rendered in wiki markup
+
+---
+
+### isual editing
+
+---
+
+While wiki engines hae traditionally offered source editing to users in recent years some implementations hae added a rich tet editing mode This is usually implemented using JaaScript as an interface which translates formatting instructions chosen from a toolbar into the corresponding wiki markup or HTML This is generated and submitted to the serer transparently shielding users from the technical detail of markup editing and making it easier for them to change the content of pages An eample of such an interface is the isualEditor in MediaWiki the wiki engine used by Wikipedia WYSIWYG editors may not proide all the features aailable in wiki markup and some users prefer not to use them so a source editor will often be aailable simultaneously
+
+---
+
+### ersion history
+
+---
+
+Some wiki implementations keep a record of changes made to wiki pages and may store eery ersion of the page permanently This allows authors to reert a page to an older ersion to rectify a mistake or counteract a malicious or inappropriate edit to its content
+
+---
+
+These stores are typically presented for each page in a list called a log or edit history aailable from the page ia a link in the interface The list displays metadata for each reision to the page such as the time and date of when it was stored and the name of the person who created it alongside a link to iew that specific reision A diff short for difference feature may be aailable which highlights the changes between any two reisions
+
+---
+
+### Edit summaries
+
+---
+
+The edit history iew in many wiki implementations will include edit summaries written by users when submitting changes to a page Similar to the function of a log message in a reision control system an edit summary is a short piece of tet which summarizes and perhaps eplains the change for eample Corrected grammar or Fied table formatting to not etend past page width It is not inserted into the articles main tet
+
+---
+
+### Naigation
+
+---
+
+Traditionally wikis offer free naigation between their pages ia hypertet links in page tet rather than reuiring users to follow a formal or structured naigation scheme Users may also create indees or table of contents pages hierarchical categorization ia a taonomy or other forms of ad hoc content organization Wiki implementations can proide one or more ways to categorize or tag pages to support the maintenance of such inde pages such as a backlink feature which displays all pages that link to a gien page Adding categories or tags to a page makes it easier for other users to find it
+
+---
+
+Most wikis allow the titles of pages to be searched amongst and some offer full tet search of all stored content
+
+---
+
+### Naigation between wikis
+
+---
+
+Some wiki communities hae established naigational networks between each other using a system called WikiNodes A WikiNode is a page on a wiki which describes and links to other related wikis Some wikis operate a structure of neighbors and delegates wherein a neighbor wiki is one which discusses similar content or is otherwise of interest and a delegate wiki is one which has agreed to hae certain content delegated to it WikiNode networks act as webrings which may be naigated from one node to another to find a wiki which addresses a specific subject
+
+---
+
+### Linking to and naming pages
+
+---
+
+The synta used to create internal hyperlinks aries between wiki implementations Beginning with the WikiWikiWeb in  most wikis used camel case to name pages which is when words in a phrase are capitalized and the spaces between them remoed In this system the phrase camel case would be rendered as CamelCase In early wiki engines when a page was displayed any instance of a camel case phrase would be transformed into a link to another page named with the same phrase
+
+---
+
+While this system made it easy to link to pages it had the downside of reuiring pages to be named in a form deiating from standard spelling and titles of a single word reuired abnormally capitalizing one of the letters eg WiKi instead of Wiki Some wiki implementations attempt to improe the display of camel case page titles and links by reinserting spaces and possibly also reerting to lower case but this simplistic method is not able to correctly present titles of mied capitalization For eample Kingdom of France as a page title would be written as KingdomOfFrance and displayed as Kingdom Of France
+
+---
+
+To aoid this problem the synta of wiki markup gained free links wherein a term in natural language could be wrapped in special characters to turn it into a link without modifying it The concept was gien the name in its first implementation in UseModWiki in February  In that implementation link terms were wrapped in a double set of suare brackets for eample Kingdom of France This synta was adopted by a number of later wiki engines
+
+---
+
+It is typically possible for users of a wiki to create links to pages that do not yet eist as a way to inite the creation of those pages Such links are usually differentiated isually in some fashion such as being colored red instead of the default blue which was the case in the original WikiWikiWeb or by appearing as a uestion mark net to the linked words
+
+---
+
+### History
+
+---
+
+WikiWikiWeb was the first wiki Ward Cunningham started deeloping it in  and installed it on the Internet domain ccom on March   Cunningham gae it the name after remembering a Honolulu International Airport counter employee telling him to take the Wiki Wiki Shuttle bus that runs between the airports terminals later obsering that I chose wikiwiki as an alliteratie substitute for uick and thereby aoided naming this stuff uickweb
+
+---
+
+Cunninghams system was inspired by his haing used Apples hypertet software HyperCard which allowed users to create interlinked stacks of irtual cards HyperCard howeer was singleuser and Cunningham was inspired to build upon the ideas of annear Bush the inentor of hypertet by allowing users to comment on and change one anothers tet Cunningham says his goals were to link together peoples eperiences to create a new literature to document programming patterns and to harness peoples natural desire to talk and tell stories with a technology that would feel comfortable to those not used to authoring
+
+---
+
+Wikipedia became the most famous wiki site launched in January  and entering the top ten most popular websites in  In the early s wikis were increasingly adopted in enterprise as collaboratie software Common uses included project communication intranets and documentation initially for technical users Some companies use wikis as their collaboratie software and as a replacement for static intranets and some schools and uniersities use wikis to enhance group learning On March   the word wiki was listed in the online Oford English Dictionary
+
+---
+
+### Alternatie definitions
+
+---
+
+In the late s and early s the word wiki was used to refer to both usereditable websites and the software that powers them and the latter definition is still occasionally in use
+
+---
+
+By  Ward Cunninghams thinking on the nature of wikis had eoled leading him to write that the word wiki should not be used to refer to a single website but rather to a mass of usereditable pages or sites so that a single website is not a wiki but an instance of wiki In this concept of wiki federation in which the same content can be hosted and edited in more than one location in a manner similar to distributed ersion control the idea of a single discrete wiki no longer made sense
+
+---
+
+### Implementations
+
+---
+
+The software which powers a wiki may be implemented as a series of scripts which operate an eisting web serer a standalone application serer that runs on one or more web serers or in the case of personal wikis run as a standalone application on a single computer Some wikis use flat file databases to store page content while others use a relational database as indeed database access is faster on large wikis particularly for searching
+
+---
+
+### Hosting
+
+---
+
+Wikis can also be created on wiki hosting serices also known as wiki farms where the sererside software is implemented by the wiki farm owner and may do so at no charge in echange for adertisements being displayed on the wikis pages Some hosting serices offer priate passwordprotected wikis reuiring authentication to access Free wiki farms generally contain adertising on eery page
+
+---
+
+### Access control
+
+---
+
+The four basic types of users who participate in wikis are readers authors wiki administrators and system administrators System administrators are responsible for the installation and maintenance of the wiki engine and the container web serer Wiki administrators maintain content and through haing eleated priileges are granted additional functions including for eample preenting edits to pages deleting pages changing users access rights or blocking them from editing
+
+---
+
+### Controlling changes
+
+---
+
+Wikis are generally designed with a soft security philosophy in which it is easy to correct mistakes or harmful changes rather than attempting to preent them from happening in the first place This allows them to be ery open while proiding a means to erify the alidity of recent additions to the body of pages Most wikis offer a recent changes page which shows recent edits or a list of edits made within a gien time frame Some wikis can filter the list to remoe edits flagged by users as minor and automated edits The ersion history feature allows harmful changes to be reerted uickly and easily
+
+---
+
+Some wiki engines proide additional content control allowing remote monitoring and management of a page or set of pages to maintain uality A person willing to maintain pages will be alerted of modifications to them allowing them to erify the alidity of new editions uickly Such a feature is often called a watchlist
+
+---
+
+Some wikis also implement patrolled reisions in which editors with the reuisite credentials can mark edits as being legitimate A flagged reisions system can preent edits from going lie until they hae been reiewed
+
+---
+
+Wikis may allow any person on the web to edit their content without haing to register an account on the site first anonymous editing or reuire registration as a condition of participation On implementations where an administrator is able to restrict editing of a page or group of pages to a specific group of users they may hae the option to preent anonymous editing while allowing it for registered users
+
+---
+
+### Trustworthiness and reliability of content
+
+---
+
+Critics of publicly editable wikis argue that they could be easily tampered with by malicious indiiduals or een by wellmeaning but unskilled users who introduce errors into the content Proponents maintain that these issues will be caught and rectified by a wikis community of users High editorial standards in medicine and health sciences articles in which users typically use peerreiewed journals or uniersity tetbooks as sources hae led to the idea of epertmoderated wikis Wiki implementations retaining and allowing access to specific ersions of articles has been useful to the scientific community by allowing epert peer reiewers to proide links to trusted ersion of articles which they hae analyzed
+
+---
+
+### Security
+
+---
+
+Trolling and cyberandalism on wikis where content is changed to something deliberately incorrect or a hoa offensie material or nonsense is added or content is maliciously remoed can be a major problem On larger wiki sites it is possible for such changes to go unnoticed for a long period
+
+---
+
+In addition to using the approach of soft security for protecting themseles larger wikis may employ sophisticated methods such as bots that automatically identify and reert andalism For eample on Wikipedia the bot ClueBot NG uses machine learning to identify likely harmful changes and reerts these changes within minutes or een seconds
+
+---
+
+Disagreements between users oer the content or appearance of pages may cause edit wars where competing users repetitiely change a page back to a ersion that they faor Some wiki software allows administrators to preent pages from being editable until a decision has been made on what ersion of the page would be most appropriate
+
+---
+
+Some wikis may be subject to eternal structures of goernance which address the behaior of persons with access to the system for eample in academic contets
+
+---
+
+### Harmful eternal links
+
+---
+
+As most wikis allow the creation of hyperlinks to other sites and serices the addition of malicious hyperlinks such as sites infected with malware can also be a problem For eample in  a German Wikipedia article about the Blaster Worm was edited to include a hyperlink to a malicious website and users of ulnerable Microsoft Windows systems who followed the link had their systems infected with the worm Some wiki engines offer a blacklist feature which preents users from adding hyperlinks to specific sites that hae been placed on the list by the wikis administrators
+
+---
+
+### Applications
+
+---
+
+The English Wikipedia has the largest user base among wikis on the World Wide Web and ranks in the top  among all Web sites in terms of traffic Other large wikis include the WikiWikiWeb Memory Alpha Wikioyage and preiously Susningnu a Swedishlanguage knowledge base Medical and healthrelated wiki eamples include Ganfyd an online collaboratie medical reference that is edited by medical professionals and inited nonmedical eperts Many wiki communities are priate particularly within enterprises They are often used as internal documentation for inhouse systems and applications Some companies use wikis to allow customers to help produce software documentation A study of corporate wiki users found that they could be diided into synthesizers and adders of content Synthesizers freuency of contribution was affected more by their impact on other wiki users while adders contribution freuency was affected more by being able to accomplish their immediate work From a study of thousands of wiki deployments Jonathan Grudin concluded careful stakeholder analysis and education are crucial to successful wiki deployment
+
+---
+
+In  the Gartner Group noting the increasing popularity of wikis estimated that they would become mainstream collaboration tools in at least  of companies by  Wikis can be used for project management Wikis hae also been used in the academic community for sharing and dissemination of information across institutional and international boundaries In those settings they hae been found useful for collaboration on grant writing strategic planning departmental documentation and committee work In the mids the increasing trend among industries toward collaboration placed a heaier impetus upon educators to make students proficient in collaboratie work inspiring een greater interest in wikis being used in the classroom
+
+---
+
+Wikis hae found some use within the legal profession and within the goernment Eamples include the Central Intelligence Agencys Intellipedia designed to share and collect intelligence assessments DKosopedia which was used by the American Ciil Liberties Union to assist with reiew of documents about the internment of detainees in Guantnamo Bay and the wiki of the United States Court of Appeals for the Seenth Circuit used to post court rules and allow practitioners to comment and ask uestions The United States Patent and Trademark Office operates PeertoPatent a wiki to allow the public to collaborate on finding prior art releant to the eamination of pending patent applications ueens New York has used a wiki to allow citizens to collaborate on the design and planning of a local park Cornell Law School founded a wikibased legal dictionary called We whose growth has been hampered by restrictions on who can edit
+
+---
+
+In academic contets wikis hae also been used as project collaboration and research support systems
+
+---
+
+### City wikis
+
+---
+
+A city wiki or local wiki is a wiki used as a knowledge base and social network for a specific geographical locale The term city wiki is sometimes also used for wikis that coer not just a city but a small town or an entire region Such a wiki contains information about specific instances of things ideas people and places Such highly localized information might be appropriate for a wiki targeted at local iewers and could include
+
+---
+
+- Details of public establishments such as public houses bars accommodation or social centers
+- Owner name opening hours and statistics for a specific shop
+- Statistical information about a specific road in a city
+- Flaors of ice cream sered at a local ice cream parlor
+- A biography of a local mayor and other persons
+
+---
+
+### Growth factors
+
+---
+
+A study of seeral hundred wikis in  showed that a relatiely high number of administrators for a gien content size is likely to reduce growth access controls restricting editing to registered users tends to reduce growth a lack of such access controls tends to fuel new user registration and that a higher ratio of administrators to regular users has no significant effect on content or population growth
+
+---
+
+### Legal enironment
+
+---
+
+Joint authorship of articles in which different users participate in correcting editing and compiling the finished product can also cause editors to become tenants in common of the copyright making it impossible to republish without permission of all coowners some of whose identities may be unknown due to pseudonymous or anonymous editing Some copyright issues can be alleiated through the use of an open content license ersion  of the GNU Free Documentation License includes a specific proision for wiki relicensing and Creatie Commons licenses are also popular When no license is specified an implied license to read and add content to a wiki may be deemed to eist on the grounds of business necessity and the inherent nature of a wiki
+
+---
+
+Wikis and their users can be held liable for certain actiities that occur on the wiki If a wiki owner displays indifference and forgoes controls such as banning copyright infringers that they could hae eercised to stop copyright infringement they may be deemed to hae authorized infringement especially if the wiki is primarily used to infringe copyrights or obtains a direct financial benefit such as adertising reenue from infringing actiities In the United States wikis may benefit from Section  of the Communications Decency Act which protects sites that engage in Good Samaritan policing of harmful material with no reuirement on the uality or uantity of such selfpolicing It has also been argued that a wikis enforcement of certain rules such as antibias erifiability reliable sourcing and nooriginalresearch policies could pose legal risks When defamation occurs on a wiki theoretically all users of the wiki can be held liable because any of them had the ability to remoe or amend the defamatory material from the publication It remains to be seen whether wikis will be regarded as more akin to an internet serice proider which is generally not held liable due to its lack of control oer publications contents than a publisher It has been recommended that trademark owners monitor what information is presented about their trademarks on wikis since courts may use such content as eidence pertaining to public perceptions and they can edit entries to rectify misinformation
+
+---
+
+### Conferences
+
+---
+
+Actie conferences and meetings about wikirelated topics include
+
+---
+
+- Atlassian Summit an annual conference for users of Atlassian software including Confluence
+- OpenSym called WikiSym until  an academic conference dedicated to research about wikis and open collaboration
+- SMWCon a biannual conference for users and deelopers of Semantic MediaWiki
+- TikiFest a freuently held meeting for users and deelopers of Tiki Wiki CMS Groupware
+- Wikimania an annual conference dedicated to the research and practice of Wikimedia Foundation projects like Wikipedia
+
+---
+
+Former wikirelated eents include
+
+---
+
+- RecentChangesCamp  an unconference on wikirelated topics
+- RegioWikiCamp  a semiannual unconference on regiowikis or wikis on cities and other geographic areas
+
+---
+
+### See also
+
+---
+
+- Comparison of wiki software
+- Content management system
+- CURIE
+- Dispersed knowledge
+- List of wikis
+- Mass collaboration
+- Uniersal Edit Button
+- Wikis and education
+
+---
+
+### Eternal links
+
+---
+
+- Eploring with Wiki an interiew with Ward Cunningham
+- Murphy Paula April  Topsytury World of Wiki Uniersity of California
+- Ward Cunninghams correspondence with etymologists
+- WikiInde and WikiApiary directories of wikis
+- WikiMatri a website for comparing wiki software and hosts
+- wikiteam on GitHub
+2024-11-12 02:04:01,349 - ERROR - Unexpected data format from parser for URL: https://en.wikipedia.org/wiki/Wiki
+2024-11-12 02:04:02,350 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:02,380 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:04:02,798 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:04:02,799 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:04:02,799 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:04:02,799 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:04:02,799 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:04:02,799 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:04:02,800 - DEBUG - Data Type: lektury, Data: ['https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html']
+2024-11-12 02:04:03,800 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:03,957 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:04:05,085 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:05,564 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:04:07,106 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:07,568 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:04:09,119 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:09,632 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:04:11,183 - INFO - Crawling completed.
+2024-11-12 02:04:11,183 - INFO - Visited 4 pages.
+2024-11-12 02:04:19,279 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:04:19,423 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:04:19,829 - DEBUG - Data Type: text, Data: A wiki wki WIkee is a form of hypertet publication on the internet which is collaboratiely edited and managed by its audience directly through a web browser A typical wiki contains multiple pages that can either be edited by the public or limited to use within an organization for maintaining its internal knowledge base
+
+---
+
+Wikis are powered by wiki software also known as wiki engines Being a form of content management system these differ from other webbased systems such as blog software or static site generators in that the content is created without any defined owner or leader Wikis hae little inherent structure allowing one to emerge according to the needs of the users Wiki engines usually allow content to be written using a lightweight markup language and sometimes edited with the help of a richtet editor There are dozens of different wiki engines in use both standalone and part of other software such as bug tracking systems Some wiki engines are free and opensource whereas others are proprietary Some permit control oer different functions leels of access for eample editing rights may permit changing adding or remoing material Others may permit access without enforcing access control Further rules may be imposed to organize content In addition to hosting userauthored content wikis allow those users to interact hold discussions and collaborate
+
+---
+
+There are hundreds of thousands of wikis in use both public and priate including wikis functioning as knowledge management resources notetaking tools community websites and intranets Ward Cunningham the deeloper of the first wiki software WikiWikiWeb originally described wiki as the simplest online database that could possibly work Wiki pronounced wiki is a Hawaiian word meaning uick
+
+---
+
+The online encyclopedia project Wikipedia is the most popular wikibased website as well being one of the internets most popular websites haing been ranked consistently as such since at least  Wikipedia is not a single wiki but rather a collection of hundreds of wikis with each one pertaining to a specific language The Englishlanguage Wikipedia has the largest collection of articles standing at  as of Noember 
+
+---
+
+### Characteristics
+
+---
+
+In their  book The Wiki Way uick Collaboration on the Web Cunningham and coauthor Bo Leuf described the essence of the wiki concept
+
+---
+
+- A wiki inites all usersnot just epertsto edit any page or to create new pages within the wiki website using only a standard plainanilla Web browser without any etra addons
+- Wiki promotes meaningful topic associations between different pages by making page link creation intuitiely easy and showing whether an intended target page eists or not
+- A wiki is not a carefully crafted site created by eperts and professional writers and designed for casual isitors Instead it seeks to inole the typical isitoruser in an ongoing process of creation and collaboration that constantly changes the website landscape
+
+---
+
+### Source editing
+
+---
+
+Some wikis will present users with an edit button or link directly on the page being iewed This will open an interface for writing formatting and structuring page content The interface may be a source editor which is tetbased and employs a lightweight markup language also known as wikitet wiki markup or wikicode or a isual editor For eample in a source editor starting lines of tet with asterisks could create a bulleted list
+
+---
+
+The synta and features of wiki markup languages for denoting style and structure can ary greatly among implementations Some allow the use of HTMLTooltip Hypertet Markup Language and CSSTooltip Cascading Style Sheets while others preent the use of these to foster uniformity in appearance
+
+---
+
+### Eample of synta
+
+---
+
+A short section of Alices Adentures in Wonderland rendered in wiki markup
+
+---
+
+### isual editing
+
+---
+
+While wiki engines hae traditionally offered source editing to users in recent years some implementations hae added a rich tet editing mode This is usually implemented using JaaScript as an interface which translates formatting instructions chosen from a toolbar into the corresponding wiki markup or HTML This is generated and submitted to the serer transparently shielding users from the technical detail of markup editing and making it easier for them to change the content of pages An eample of such an interface is the isualEditor in MediaWiki the wiki engine used by Wikipedia WYSIWYG editors may not proide all the features aailable in wiki markup and some users prefer not to use them so a source editor will often be aailable simultaneously
+
+---
+
+### ersion history
+
+---
+
+Some wiki implementations keep a record of changes made to wiki pages and may store eery ersion of the page permanently This allows authors to reert a page to an older ersion to rectify a mistake or counteract a malicious or inappropriate edit to its content
+
+---
+
+These stores are typically presented for each page in a list called a log or edit history aailable from the page ia a link in the interface The list displays metadata for each reision to the page such as the time and date of when it was stored and the name of the person who created it alongside a link to iew that specific reision A diff short for difference feature may be aailable which highlights the changes between any two reisions
+
+---
+
+### Edit summaries
+
+---
+
+The edit history iew in many wiki implementations will include edit summaries written by users when submitting changes to a page Similar to the function of a log message in a reision control system an edit summary is a short piece of tet which summarizes and perhaps eplains the change for eample Corrected grammar or Fied table formatting to not etend past page width It is not inserted into the articles main tet
+
+---
+
+### Naigation
+
+---
+
+Traditionally wikis offer free naigation between their pages ia hypertet links in page tet rather than reuiring users to follow a formal or structured naigation scheme Users may also create indees or table of contents pages hierarchical categorization ia a taonomy or other forms of ad hoc content organization Wiki implementations can proide one or more ways to categorize or tag pages to support the maintenance of such inde pages such as a backlink feature which displays all pages that link to a gien page Adding categories or tags to a page makes it easier for other users to find it
+
+---
+
+Most wikis allow the titles of pages to be searched amongst and some offer full tet search of all stored content
+
+---
+
+### Naigation between wikis
+
+---
+
+Some wiki communities hae established naigational networks between each other using a system called WikiNodes A WikiNode is a page on a wiki which describes and links to other related wikis Some wikis operate a structure of neighbors and delegates wherein a neighbor wiki is one which discusses similar content or is otherwise of interest and a delegate wiki is one which has agreed to hae certain content delegated to it WikiNode networks act as webrings which may be naigated from one node to another to find a wiki which addresses a specific subject
+
+---
+
+### Linking to and naming pages
+
+---
+
+The synta used to create internal hyperlinks aries between wiki implementations Beginning with the WikiWikiWeb in  most wikis used camel case to name pages which is when words in a phrase are capitalized and the spaces between them remoed In this system the phrase camel case would be rendered as CamelCase In early wiki engines when a page was displayed any instance of a camel case phrase would be transformed into a link to another page named with the same phrase
+
+---
+
+While this system made it easy to link to pages it had the downside of reuiring pages to be named in a form deiating from standard spelling and titles of a single word reuired abnormally capitalizing one of the letters eg WiKi instead of Wiki Some wiki implementations attempt to improe the display of camel case page titles and links by reinserting spaces and possibly also reerting to lower case but this simplistic method is not able to correctly present titles of mied capitalization For eample Kingdom of France as a page title would be written as KingdomOfFrance and displayed as Kingdom Of France
+
+---
+
+To aoid this problem the synta of wiki markup gained free links wherein a term in natural language could be wrapped in special characters to turn it into a link without modifying it The concept was gien the name in its first implementation in UseModWiki in February  In that implementation link terms were wrapped in a double set of suare brackets for eample Kingdom of France This synta was adopted by a number of later wiki engines
+
+---
+
+It is typically possible for users of a wiki to create links to pages that do not yet eist as a way to inite the creation of those pages Such links are usually differentiated isually in some fashion such as being colored red instead of the default blue which was the case in the original WikiWikiWeb or by appearing as a uestion mark net to the linked words
+
+---
+
+### History
+
+---
+
+WikiWikiWeb was the first wiki Ward Cunningham started deeloping it in  and installed it on the Internet domain ccom on March   Cunningham gae it the name after remembering a Honolulu International Airport counter employee telling him to take the Wiki Wiki Shuttle bus that runs between the airports terminals later obsering that I chose wikiwiki as an alliteratie substitute for uick and thereby aoided naming this stuff uickweb
+
+---
+
+Cunninghams system was inspired by his haing used Apples hypertet software HyperCard which allowed users to create interlinked stacks of irtual cards HyperCard howeer was singleuser and Cunningham was inspired to build upon the ideas of annear Bush the inentor of hypertet by allowing users to comment on and change one anothers tet Cunningham says his goals were to link together peoples eperiences to create a new literature to document programming patterns and to harness peoples natural desire to talk and tell stories with a technology that would feel comfortable to those not used to authoring
+
+---
+
+Wikipedia became the most famous wiki site launched in January  and entering the top ten most popular websites in  In the early s wikis were increasingly adopted in enterprise as collaboratie software Common uses included project communication intranets and documentation initially for technical users Some companies use wikis as their collaboratie software and as a replacement for static intranets and some schools and uniersities use wikis to enhance group learning On March   the word wiki was listed in the online Oford English Dictionary
+
+---
+
+### Alternatie definitions
+
+---
+
+In the late s and early s the word wiki was used to refer to both usereditable websites and the software that powers them and the latter definition is still occasionally in use
+
+---
+
+By  Ward Cunninghams thinking on the nature of wikis had eoled leading him to write that the word wiki should not be used to refer to a single website but rather to a mass of usereditable pages or sites so that a single website is not a wiki but an instance of wiki In this concept of wiki federation in which the same content can be hosted and edited in more than one location in a manner similar to distributed ersion control the idea of a single discrete wiki no longer made sense
+
+---
+
+### Implementations
+
+---
+
+The software which powers a wiki may be implemented as a series of scripts which operate an eisting web serer a standalone application serer that runs on one or more web serers or in the case of personal wikis run as a standalone application on a single computer Some wikis use flat file databases to store page content while others use a relational database as indeed database access is faster on large wikis particularly for searching
+
+---
+
+### Hosting
+
+---
+
+Wikis can also be created on wiki hosting serices also known as wiki farms where the sererside software is implemented by the wiki farm owner and may do so at no charge in echange for adertisements being displayed on the wikis pages Some hosting serices offer priate passwordprotected wikis reuiring authentication to access Free wiki farms generally contain adertising on eery page
+
+---
+
+### Access control
+
+---
+
+The four basic types of users who participate in wikis are readers authors wiki administrators and system administrators System administrators are responsible for the installation and maintenance of the wiki engine and the container web serer Wiki administrators maintain content and through haing eleated priileges are granted additional functions including for eample preenting edits to pages deleting pages changing users access rights or blocking them from editing
+
+---
+
+### Controlling changes
+
+---
+
+Wikis are generally designed with a soft security philosophy in which it is easy to correct mistakes or harmful changes rather than attempting to preent them from happening in the first place This allows them to be ery open while proiding a means to erify the alidity of recent additions to the body of pages Most wikis offer a recent changes page which shows recent edits or a list of edits made within a gien time frame Some wikis can filter the list to remoe edits flagged by users as minor and automated edits The ersion history feature allows harmful changes to be reerted uickly and easily
+
+---
+
+Some wiki engines proide additional content control allowing remote monitoring and management of a page or set of pages to maintain uality A person willing to maintain pages will be alerted of modifications to them allowing them to erify the alidity of new editions uickly Such a feature is often called a watchlist
+
+---
+
+Some wikis also implement patrolled reisions in which editors with the reuisite credentials can mark edits as being legitimate A flagged reisions system can preent edits from going lie until they hae been reiewed
+
+---
+
+Wikis may allow any person on the web to edit their content without haing to register an account on the site first anonymous editing or reuire registration as a condition of participation On implementations where an administrator is able to restrict editing of a page or group of pages to a specific group of users they may hae the option to preent anonymous editing while allowing it for registered users
+
+---
+
+### Trustworthiness and reliability of content
+
+---
+
+Critics of publicly editable wikis argue that they could be easily tampered with by malicious indiiduals or een by wellmeaning but unskilled users who introduce errors into the content Proponents maintain that these issues will be caught and rectified by a wikis community of users High editorial standards in medicine and health sciences articles in which users typically use peerreiewed journals or uniersity tetbooks as sources hae led to the idea of epertmoderated wikis Wiki implementations retaining and allowing access to specific ersions of articles has been useful to the scientific community by allowing epert peer reiewers to proide links to trusted ersion of articles which they hae analyzed
+
+---
+
+### Security
+
+---
+
+Trolling and cyberandalism on wikis where content is changed to something deliberately incorrect or a hoa offensie material or nonsense is added or content is maliciously remoed can be a major problem On larger wiki sites it is possible for such changes to go unnoticed for a long period
+
+---
+
+In addition to using the approach of soft security for protecting themseles larger wikis may employ sophisticated methods such as bots that automatically identify and reert andalism For eample on Wikipedia the bot ClueBot NG uses machine learning to identify likely harmful changes and reerts these changes within minutes or een seconds
+
+---
+
+Disagreements between users oer the content or appearance of pages may cause edit wars where competing users repetitiely change a page back to a ersion that they faor Some wiki software allows administrators to preent pages from being editable until a decision has been made on what ersion of the page would be most appropriate
+
+---
+
+Some wikis may be subject to eternal structures of goernance which address the behaior of persons with access to the system for eample in academic contets
+
+---
+
+### Harmful eternal links
+
+---
+
+As most wikis allow the creation of hyperlinks to other sites and serices the addition of malicious hyperlinks such as sites infected with malware can also be a problem For eample in  a German Wikipedia article about the Blaster Worm was edited to include a hyperlink to a malicious website and users of ulnerable Microsoft Windows systems who followed the link had their systems infected with the worm Some wiki engines offer a blacklist feature which preents users from adding hyperlinks to specific sites that hae been placed on the list by the wikis administrators
+
+---
+
+### Applications
+
+---
+
+The English Wikipedia has the largest user base among wikis on the World Wide Web and ranks in the top  among all Web sites in terms of traffic Other large wikis include the WikiWikiWeb Memory Alpha Wikioyage and preiously Susningnu a Swedishlanguage knowledge base Medical and healthrelated wiki eamples include Ganfyd an online collaboratie medical reference that is edited by medical professionals and inited nonmedical eperts Many wiki communities are priate particularly within enterprises They are often used as internal documentation for inhouse systems and applications Some companies use wikis to allow customers to help produce software documentation A study of corporate wiki users found that they could be diided into synthesizers and adders of content Synthesizers freuency of contribution was affected more by their impact on other wiki users while adders contribution freuency was affected more by being able to accomplish their immediate work From a study of thousands of wiki deployments Jonathan Grudin concluded careful stakeholder analysis and education are crucial to successful wiki deployment
+
+---
+
+In  the Gartner Group noting the increasing popularity of wikis estimated that they would become mainstream collaboration tools in at least  of companies by  Wikis can be used for project management Wikis hae also been used in the academic community for sharing and dissemination of information across institutional and international boundaries In those settings they hae been found useful for collaboration on grant writing strategic planning departmental documentation and committee work In the mids the increasing trend among industries toward collaboration placed a heaier impetus upon educators to make students proficient in collaboratie work inspiring een greater interest in wikis being used in the classroom
+
+---
+
+Wikis hae found some use within the legal profession and within the goernment Eamples include the Central Intelligence Agencys Intellipedia designed to share and collect intelligence assessments DKosopedia which was used by the American Ciil Liberties Union to assist with reiew of documents about the internment of detainees in Guantnamo Bay and the wiki of the United States Court of Appeals for the Seenth Circuit used to post court rules and allow practitioners to comment and ask uestions The United States Patent and Trademark Office operates PeertoPatent a wiki to allow the public to collaborate on finding prior art releant to the eamination of pending patent applications ueens New York has used a wiki to allow citizens to collaborate on the design and planning of a local park Cornell Law School founded a wikibased legal dictionary called We whose growth has been hampered by restrictions on who can edit
+
+---
+
+In academic contets wikis hae also been used as project collaboration and research support systems
+
+---
+
+### City wikis
+
+---
+
+A city wiki or local wiki is a wiki used as a knowledge base and social network for a specific geographical locale The term city wiki is sometimes also used for wikis that coer not just a city but a small town or an entire region Such a wiki contains information about specific instances of things ideas people and places Such highly localized information might be appropriate for a wiki targeted at local iewers and could include
+
+---
+
+- Details of public establishments such as public houses bars accommodation or social centers
+- Owner name opening hours and statistics for a specific shop
+- Statistical information about a specific road in a city
+- Flaors of ice cream sered at a local ice cream parlor
+- A biography of a local mayor and other persons
+
+---
+
+### Growth factors
+
+---
+
+A study of seeral hundred wikis in  showed that a relatiely high number of administrators for a gien content size is likely to reduce growth access controls restricting editing to registered users tends to reduce growth a lack of such access controls tends to fuel new user registration and that a higher ratio of administrators to regular users has no significant effect on content or population growth
+
+---
+
+### Legal enironment
+
+---
+
+Joint authorship of articles in which different users participate in correcting editing and compiling the finished product can also cause editors to become tenants in common of the copyright making it impossible to republish without permission of all coowners some of whose identities may be unknown due to pseudonymous or anonymous editing Some copyright issues can be alleiated through the use of an open content license ersion  of the GNU Free Documentation License includes a specific proision for wiki relicensing and Creatie Commons licenses are also popular When no license is specified an implied license to read and add content to a wiki may be deemed to eist on the grounds of business necessity and the inherent nature of a wiki
+
+---
+
+Wikis and their users can be held liable for certain actiities that occur on the wiki If a wiki owner displays indifference and forgoes controls such as banning copyright infringers that they could hae eercised to stop copyright infringement they may be deemed to hae authorized infringement especially if the wiki is primarily used to infringe copyrights or obtains a direct financial benefit such as adertising reenue from infringing actiities In the United States wikis may benefit from Section  of the Communications Decency Act which protects sites that engage in Good Samaritan policing of harmful material with no reuirement on the uality or uantity of such selfpolicing It has also been argued that a wikis enforcement of certain rules such as antibias erifiability reliable sourcing and nooriginalresearch policies could pose legal risks When defamation occurs on a wiki theoretically all users of the wiki can be held liable because any of them had the ability to remoe or amend the defamatory material from the publication It remains to be seen whether wikis will be regarded as more akin to an internet serice proider which is generally not held liable due to its lack of control oer publications contents than a publisher It has been recommended that trademark owners monitor what information is presented about their trademarks on wikis since courts may use such content as eidence pertaining to public perceptions and they can edit entries to rectify misinformation
+
+---
+
+### Conferences
+
+---
+
+Actie conferences and meetings about wikirelated topics include
+
+---
+
+- Atlassian Summit an annual conference for users of Atlassian software including Confluence
+- OpenSym called WikiSym until  an academic conference dedicated to research about wikis and open collaboration
+- SMWCon a biannual conference for users and deelopers of Semantic MediaWiki
+- TikiFest a freuently held meeting for users and deelopers of Tiki Wiki CMS Groupware
+- Wikimania an annual conference dedicated to the research and practice of Wikimedia Foundation projects like Wikipedia
+
+---
+
+Former wikirelated eents include
+
+---
+
+- RecentChangesCamp  an unconference on wikirelated topics
+- RegioWikiCamp  a semiannual unconference on regiowikis or wikis on cities and other geographic areas
+
+---
+
+### See also
+
+---
+
+- Comparison of wiki software
+- Content management system
+- CURIE
+- Dispersed knowledge
+- List of wikis
+- Mass collaboration
+- Uniersal Edit Button
+- Wikis and education
+
+---
+
+### Eternal links
+
+---
+
+- Eploring with Wiki an interiew with Ward Cunningham
+- Murphy Paula April  Topsytury World of Wiki Uniersity of California
+- Ward Cunninghams correspondence with etymologists
+- WikiInde and WikiApiary directories of wikis
+- WikiMatri a website for comparing wiki software and hosts
+- wikiteam on GitHub
+2024-11-12 02:04:19,856 - ERROR - Unexpected data format from parser for URL: https://en.wikipedia.org/wiki/Wiki
+2024-11-12 02:04:20,856 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:20,887 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:04:21,238 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:04:21,239 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:04:21,239 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:04:21,239 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:04:21,239 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:04:21,240 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:04:21,240 - DEBUG - Data Type: lektury, Data: ['https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html']
+2024-11-12 02:04:22,240 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:22,325 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:04:23,434 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:23,780 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:04:25,313 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:25,694 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:04:27,246 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:04:27,611 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:04:29,157 - INFO - Crawling completed.
+2024-11-12 02:04:29,157 - INFO - Visited 4 pages.
+2024-11-12 02:06:52,612 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:06:52,758 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:06:53,166 - DEBUG - Data Type: text, Data: A wiki wki WIkee is a form of hypertet publication on the internet which is collaboratiely edited and managed by its audience directly through a web browser A typical wiki contains multiple pages that can either be edited by the public or limited to use within an organization for maintaining its internal knowledge base
+
+---
+
+Wikis are powered by wiki software also known as wiki engines Being a form of content management system these differ from other webbased systems such as blog software or static site generators in that the content is created without any defined owner or leader Wikis hae little inherent structure allowing one to emerge according to the needs of the users Wiki engines usually allow content to be written using a lightweight markup language and sometimes edited with the help of a richtet editor There are dozens of different wiki engines in use both standalone and part of other software such as bug tracking systems Some wiki engines are free and opensource whereas others are proprietary Some permit control oer different functions leels of access for eample editing rights may permit changing adding or remoing material Others may permit access without enforcing access control Further rules may be imposed to organize content In addition to hosting userauthored content wikis allow those users to interact hold discussions and collaborate
+
+---
+
+There are hundreds of thousands of wikis in use both public and priate including wikis functioning as knowledge management resources notetaking tools community websites and intranets Ward Cunningham the deeloper of the first wiki software WikiWikiWeb originally described wiki as the simplest online database that could possibly work Wiki pronounced wiki is a Hawaiian word meaning uick
+
+---
+
+The online encyclopedia project Wikipedia is the most popular wikibased website as well being one of the internets most popular websites haing been ranked consistently as such since at least  Wikipedia is not a single wiki but rather a collection of hundreds of wikis with each one pertaining to a specific language The Englishlanguage Wikipedia has the largest collection of articles standing at  as of Noember 
+
+---
+
+### Characteristics
+
+---
+
+In their  book The Wiki Way uick Collaboration on the Web Cunningham and coauthor Bo Leuf described the essence of the wiki concept
+
+---
+
+- A wiki inites all usersnot just epertsto edit any page or to create new pages within the wiki website using only a standard plainanilla Web browser without any etra addons
+- Wiki promotes meaningful topic associations between different pages by making page link creation intuitiely easy and showing whether an intended target page eists or not
+- A wiki is not a carefully crafted site created by eperts and professional writers and designed for casual isitors Instead it seeks to inole the typical isitoruser in an ongoing process of creation and collaboration that constantly changes the website landscape
+
+---
+
+### Source editing
+
+---
+
+Some wikis will present users with an edit button or link directly on the page being iewed This will open an interface for writing formatting and structuring page content The interface may be a source editor which is tetbased and employs a lightweight markup language also known as wikitet wiki markup or wikicode or a isual editor For eample in a source editor starting lines of tet with asterisks could create a bulleted list
+
+---
+
+The synta and features of wiki markup languages for denoting style and structure can ary greatly among implementations Some allow the use of HTMLTooltip Hypertet Markup Language and CSSTooltip Cascading Style Sheets while others preent the use of these to foster uniformity in appearance
+
+---
+
+### Eample of synta
+
+---
+
+A short section of Alices Adentures in Wonderland rendered in wiki markup
+
+---
+
+### isual editing
+
+---
+
+While wiki engines hae traditionally offered source editing to users in recent years some implementations hae added a rich tet editing mode This is usually implemented using JaaScript as an interface which translates formatting instructions chosen from a toolbar into the corresponding wiki markup or HTML This is generated and submitted to the serer transparently shielding users from the technical detail of markup editing and making it easier for them to change the content of pages An eample of such an interface is the isualEditor in MediaWiki the wiki engine used by Wikipedia WYSIWYG editors may not proide all the features aailable in wiki markup and some users prefer not to use them so a source editor will often be aailable simultaneously
+
+---
+
+### ersion history
+
+---
+
+Some wiki implementations keep a record of changes made to wiki pages and may store eery ersion of the page permanently This allows authors to reert a page to an older ersion to rectify a mistake or counteract a malicious or inappropriate edit to its content
+
+---
+
+These stores are typically presented for each page in a list called a log or edit history aailable from the page ia a link in the interface The list displays metadata for each reision to the page such as the time and date of when it was stored and the name of the person who created it alongside a link to iew that specific reision A diff short for difference feature may be aailable which highlights the changes between any two reisions
+
+---
+
+### Edit summaries
+
+---
+
+The edit history iew in many wiki implementations will include edit summaries written by users when submitting changes to a page Similar to the function of a log message in a reision control system an edit summary is a short piece of tet which summarizes and perhaps eplains the change for eample Corrected grammar or Fied table formatting to not etend past page width It is not inserted into the articles main tet
+
+---
+
+### Naigation
+
+---
+
+Traditionally wikis offer free naigation between their pages ia hypertet links in page tet rather than reuiring users to follow a formal or structured naigation scheme Users may also create indees or table of contents pages hierarchical categorization ia a taonomy or other forms of ad hoc content organization Wiki implementations can proide one or more ways to categorize or tag pages to support the maintenance of such inde pages such as a backlink feature which displays all pages that link to a gien page Adding categories or tags to a page makes it easier for other users to find it
+
+---
+
+Most wikis allow the titles of pages to be searched amongst and some offer full tet search of all stored content
+
+---
+
+### Naigation between wikis
+
+---
+
+Some wiki communities hae established naigational networks between each other using a system called WikiNodes A WikiNode is a page on a wiki which describes and links to other related wikis Some wikis operate a structure of neighbors and delegates wherein a neighbor wiki is one which discusses similar content or is otherwise of interest and a delegate wiki is one which has agreed to hae certain content delegated to it WikiNode networks act as webrings which may be naigated from one node to another to find a wiki which addresses a specific subject
+
+---
+
+### Linking to and naming pages
+
+---
+
+The synta used to create internal hyperlinks aries between wiki implementations Beginning with the WikiWikiWeb in  most wikis used camel case to name pages which is when words in a phrase are capitalized and the spaces between them remoed In this system the phrase camel case would be rendered as CamelCase In early wiki engines when a page was displayed any instance of a camel case phrase would be transformed into a link to another page named with the same phrase
+
+---
+
+While this system made it easy to link to pages it had the downside of reuiring pages to be named in a form deiating from standard spelling and titles of a single word reuired abnormally capitalizing one of the letters eg WiKi instead of Wiki Some wiki implementations attempt to improe the display of camel case page titles and links by reinserting spaces and possibly also reerting to lower case but this simplistic method is not able to correctly present titles of mied capitalization For eample Kingdom of France as a page title would be written as KingdomOfFrance and displayed as Kingdom Of France
+
+---
+
+To aoid this problem the synta of wiki markup gained free links wherein a term in natural language could be wrapped in special characters to turn it into a link without modifying it The concept was gien the name in its first implementation in UseModWiki in February  In that implementation link terms were wrapped in a double set of suare brackets for eample Kingdom of France This synta was adopted by a number of later wiki engines
+
+---
+
+It is typically possible for users of a wiki to create links to pages that do not yet eist as a way to inite the creation of those pages Such links are usually differentiated isually in some fashion such as being colored red instead of the default blue which was the case in the original WikiWikiWeb or by appearing as a uestion mark net to the linked words
+
+---
+
+### History
+
+---
+
+WikiWikiWeb was the first wiki Ward Cunningham started deeloping it in  and installed it on the Internet domain ccom on March   Cunningham gae it the name after remembering a Honolulu International Airport counter employee telling him to take the Wiki Wiki Shuttle bus that runs between the airports terminals later obsering that I chose wikiwiki as an alliteratie substitute for uick and thereby aoided naming this stuff uickweb
+
+---
+
+Cunninghams system was inspired by his haing used Apples hypertet software HyperCard which allowed users to create interlinked stacks of irtual cards HyperCard howeer was singleuser and Cunningham was inspired to build upon the ideas of annear Bush the inentor of hypertet by allowing users to comment on and change one anothers tet Cunningham says his goals were to link together peoples eperiences to create a new literature to document programming patterns and to harness peoples natural desire to talk and tell stories with a technology that would feel comfortable to those not used to authoring
+
+---
+
+Wikipedia became the most famous wiki site launched in January  and entering the top ten most popular websites in  In the early s wikis were increasingly adopted in enterprise as collaboratie software Common uses included project communication intranets and documentation initially for technical users Some companies use wikis as their collaboratie software and as a replacement for static intranets and some schools and uniersities use wikis to enhance group learning On March   the word wiki was listed in the online Oford English Dictionary
+
+---
+
+### Alternatie definitions
+
+---
+
+In the late s and early s the word wiki was used to refer to both usereditable websites and the software that powers them and the latter definition is still occasionally in use
+
+---
+
+By  Ward Cunninghams thinking on the nature of wikis had eoled leading him to write that the word wiki should not be used to refer to a single website but rather to a mass of usereditable pages or sites so that a single website is not a wiki but an instance of wiki In this concept of wiki federation in which the same content can be hosted and edited in more than one location in a manner similar to distributed ersion control the idea of a single discrete wiki no longer made sense
+
+---
+
+### Implementations
+
+---
+
+The software which powers a wiki may be implemented as a series of scripts which operate an eisting web serer a standalone application serer that runs on one or more web serers or in the case of personal wikis run as a standalone application on a single computer Some wikis use flat file databases to store page content while others use a relational database as indeed database access is faster on large wikis particularly for searching
+
+---
+
+### Hosting
+
+---
+
+Wikis can also be created on wiki hosting serices also known as wiki farms where the sererside software is implemented by the wiki farm owner and may do so at no charge in echange for adertisements being displayed on the wikis pages Some hosting serices offer priate passwordprotected wikis reuiring authentication to access Free wiki farms generally contain adertising on eery page
+
+---
+
+### Access control
+
+---
+
+The four basic types of users who participate in wikis are readers authors wiki administrators and system administrators System administrators are responsible for the installation and maintenance of the wiki engine and the container web serer Wiki administrators maintain content and through haing eleated priileges are granted additional functions including for eample preenting edits to pages deleting pages changing users access rights or blocking them from editing
+
+---
+
+### Controlling changes
+
+---
+
+Wikis are generally designed with a soft security philosophy in which it is easy to correct mistakes or harmful changes rather than attempting to preent them from happening in the first place This allows them to be ery open while proiding a means to erify the alidity of recent additions to the body of pages Most wikis offer a recent changes page which shows recent edits or a list of edits made within a gien time frame Some wikis can filter the list to remoe edits flagged by users as minor and automated edits The ersion history feature allows harmful changes to be reerted uickly and easily
+
+---
+
+Some wiki engines proide additional content control allowing remote monitoring and management of a page or set of pages to maintain uality A person willing to maintain pages will be alerted of modifications to them allowing them to erify the alidity of new editions uickly Such a feature is often called a watchlist
+
+---
+
+Some wikis also implement patrolled reisions in which editors with the reuisite credentials can mark edits as being legitimate A flagged reisions system can preent edits from going lie until they hae been reiewed
+
+---
+
+Wikis may allow any person on the web to edit their content without haing to register an account on the site first anonymous editing or reuire registration as a condition of participation On implementations where an administrator is able to restrict editing of a page or group of pages to a specific group of users they may hae the option to preent anonymous editing while allowing it for registered users
+
+---
+
+### Trustworthiness and reliability of content
+
+---
+
+Critics of publicly editable wikis argue that they could be easily tampered with by malicious indiiduals or een by wellmeaning but unskilled users who introduce errors into the content Proponents maintain that these issues will be caught and rectified by a wikis community of users High editorial standards in medicine and health sciences articles in which users typically use peerreiewed journals or uniersity tetbooks as sources hae led to the idea of epertmoderated wikis Wiki implementations retaining and allowing access to specific ersions of articles has been useful to the scientific community by allowing epert peer reiewers to proide links to trusted ersion of articles which they hae analyzed
+
+---
+
+### Security
+
+---
+
+Trolling and cyberandalism on wikis where content is changed to something deliberately incorrect or a hoa offensie material or nonsense is added or content is maliciously remoed can be a major problem On larger wiki sites it is possible for such changes to go unnoticed for a long period
+
+---
+
+In addition to using the approach of soft security for protecting themseles larger wikis may employ sophisticated methods such as bots that automatically identify and reert andalism For eample on Wikipedia the bot ClueBot NG uses machine learning to identify likely harmful changes and reerts these changes within minutes or een seconds
+
+---
+
+Disagreements between users oer the content or appearance of pages may cause edit wars where competing users repetitiely change a page back to a ersion that they faor Some wiki software allows administrators to preent pages from being editable until a decision has been made on what ersion of the page would be most appropriate
+
+---
+
+Some wikis may be subject to eternal structures of goernance which address the behaior of persons with access to the system for eample in academic contets
+
+---
+
+### Harmful eternal links
+
+---
+
+As most wikis allow the creation of hyperlinks to other sites and serices the addition of malicious hyperlinks such as sites infected with malware can also be a problem For eample in  a German Wikipedia article about the Blaster Worm was edited to include a hyperlink to a malicious website and users of ulnerable Microsoft Windows systems who followed the link had their systems infected with the worm Some wiki engines offer a blacklist feature which preents users from adding hyperlinks to specific sites that hae been placed on the list by the wikis administrators
+
+---
+
+### Applications
+
+---
+
+The English Wikipedia has the largest user base among wikis on the World Wide Web and ranks in the top  among all Web sites in terms of traffic Other large wikis include the WikiWikiWeb Memory Alpha Wikioyage and preiously Susningnu a Swedishlanguage knowledge base Medical and healthrelated wiki eamples include Ganfyd an online collaboratie medical reference that is edited by medical professionals and inited nonmedical eperts Many wiki communities are priate particularly within enterprises They are often used as internal documentation for inhouse systems and applications Some companies use wikis to allow customers to help produce software documentation A study of corporate wiki users found that they could be diided into synthesizers and adders of content Synthesizers freuency of contribution was affected more by their impact on other wiki users while adders contribution freuency was affected more by being able to accomplish their immediate work From a study of thousands of wiki deployments Jonathan Grudin concluded careful stakeholder analysis and education are crucial to successful wiki deployment
+
+---
+
+In  the Gartner Group noting the increasing popularity of wikis estimated that they would become mainstream collaboration tools in at least  of companies by  Wikis can be used for project management Wikis hae also been used in the academic community for sharing and dissemination of information across institutional and international boundaries In those settings they hae been found useful for collaboration on grant writing strategic planning departmental documentation and committee work In the mids the increasing trend among industries toward collaboration placed a heaier impetus upon educators to make students proficient in collaboratie work inspiring een greater interest in wikis being used in the classroom
+
+---
+
+Wikis hae found some use within the legal profession and within the goernment Eamples include the Central Intelligence Agencys Intellipedia designed to share and collect intelligence assessments DKosopedia which was used by the American Ciil Liberties Union to assist with reiew of documents about the internment of detainees in Guantnamo Bay and the wiki of the United States Court of Appeals for the Seenth Circuit used to post court rules and allow practitioners to comment and ask uestions The United States Patent and Trademark Office operates PeertoPatent a wiki to allow the public to collaborate on finding prior art releant to the eamination of pending patent applications ueens New York has used a wiki to allow citizens to collaborate on the design and planning of a local park Cornell Law School founded a wikibased legal dictionary called We whose growth has been hampered by restrictions on who can edit
+
+---
+
+In academic contets wikis hae also been used as project collaboration and research support systems
+
+---
+
+### City wikis
+
+---
+
+A city wiki or local wiki is a wiki used as a knowledge base and social network for a specific geographical locale The term city wiki is sometimes also used for wikis that coer not just a city but a small town or an entire region Such a wiki contains information about specific instances of things ideas people and places Such highly localized information might be appropriate for a wiki targeted at local iewers and could include
+
+---
+
+- Details of public establishments such as public houses bars accommodation or social centers
+- Owner name opening hours and statistics for a specific shop
+- Statistical information about a specific road in a city
+- Flaors of ice cream sered at a local ice cream parlor
+- A biography of a local mayor and other persons
+
+---
+
+### Growth factors
+
+---
+
+A study of seeral hundred wikis in  showed that a relatiely high number of administrators for a gien content size is likely to reduce growth access controls restricting editing to registered users tends to reduce growth a lack of such access controls tends to fuel new user registration and that a higher ratio of administrators to regular users has no significant effect on content or population growth
+
+---
+
+### Legal enironment
+
+---
+
+Joint authorship of articles in which different users participate in correcting editing and compiling the finished product can also cause editors to become tenants in common of the copyright making it impossible to republish without permission of all coowners some of whose identities may be unknown due to pseudonymous or anonymous editing Some copyright issues can be alleiated through the use of an open content license ersion  of the GNU Free Documentation License includes a specific proision for wiki relicensing and Creatie Commons licenses are also popular When no license is specified an implied license to read and add content to a wiki may be deemed to eist on the grounds of business necessity and the inherent nature of a wiki
+
+---
+
+Wikis and their users can be held liable for certain actiities that occur on the wiki If a wiki owner displays indifference and forgoes controls such as banning copyright infringers that they could hae eercised to stop copyright infringement they may be deemed to hae authorized infringement especially if the wiki is primarily used to infringe copyrights or obtains a direct financial benefit such as adertising reenue from infringing actiities In the United States wikis may benefit from Section  of the Communications Decency Act which protects sites that engage in Good Samaritan policing of harmful material with no reuirement on the uality or uantity of such selfpolicing It has also been argued that a wikis enforcement of certain rules such as antibias erifiability reliable sourcing and nooriginalresearch policies could pose legal risks When defamation occurs on a wiki theoretically all users of the wiki can be held liable because any of them had the ability to remoe or amend the defamatory material from the publication It remains to be seen whether wikis will be regarded as more akin to an internet serice proider which is generally not held liable due to its lack of control oer publications contents than a publisher It has been recommended that trademark owners monitor what information is presented about their trademarks on wikis since courts may use such content as eidence pertaining to public perceptions and they can edit entries to rectify misinformation
+
+---
+
+### Conferences
+
+---
+
+Actie conferences and meetings about wikirelated topics include
+
+---
+
+- Atlassian Summit an annual conference for users of Atlassian software including Confluence
+- OpenSym called WikiSym until  an academic conference dedicated to research about wikis and open collaboration
+- SMWCon a biannual conference for users and deelopers of Semantic MediaWiki
+- TikiFest a freuently held meeting for users and deelopers of Tiki Wiki CMS Groupware
+- Wikimania an annual conference dedicated to the research and practice of Wikimedia Foundation projects like Wikipedia
+
+---
+
+Former wikirelated eents include
+
+---
+
+- RecentChangesCamp  an unconference on wikirelated topics
+- RegioWikiCamp  a semiannual unconference on regiowikis or wikis on cities and other geographic areas
+
+---
+
+### See also
+
+---
+
+- Comparison of wiki software
+- Content management system
+- CURIE
+- Dispersed knowledge
+- List of wikis
+- Mass collaboration
+- Uniersal Edit Button
+- Wikis and education
+
+---
+
+### Eternal links
+
+---
+
+- Eploring with Wiki an interiew with Ward Cunningham
+- Murphy Paula April  Topsytury World of Wiki Uniersity of California
+- Ward Cunninghams correspondence with etymologists
+- WikiInde and WikiApiary directories of wikis
+- WikiMatri a website for comparing wiki software and hosts
+- wikiteam on GitHub
+2024-11-12 02:06:53,196 - ERROR - Unexpected data format from parser for URL: https://en.wikipedia.org/wiki/Wiki
+2024-11-12 02:06:54,196 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:06:54,230 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:06:54,598 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:06:54,598 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:06:54,599 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:06:54,599 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:06:54,599 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:06:54,599 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:06:54,599 - DEBUG - Data Type: lektury, Data: ['https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html', 'https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html']
+2024-11-12 02:06:55,600 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:06:55,684 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:06:55,794 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_wstep.txt.
+2024-11-12 02:06:56,794 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:06:57,157 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:06:57,691 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_pieklo.txt.
+2024-11-12 02:06:58,692 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:06:59,163 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:06:59,710 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_czysciec.txt.
+2024-11-12 02:07:00,710 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:07:01,102 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:07:01,652 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_raj.txt.
+2024-11-12 02:07:02,653 - INFO - Crawling completed.
+2024-11-12 02:07:02,653 - INFO - Visited 4 pages.
+2024-11-12 02:09:59,234 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:09:59,278 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:09:59,645 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:09:59,646 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:09:59,646 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:09:59,646 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:09:59,646 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:09:59,647 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:10:00,647 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:10:00,777 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:10:01,243 - ERROR - Unexpected data format from parser for URL: https://en.wikipedia.org/wiki/Wiki
+2024-11-12 02:10:02,244 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:10:02,428 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:10:02,455 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_wstep.txt.
+2024-11-12 02:10:03,456 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:10:03,945 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:10:04,146 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_pieklo.txt.
+2024-11-12 02:10:05,147 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:10:05,593 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:10:05,799 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_czysciec.txt.
+2024-11-12 02:10:06,799 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:10:07,277 - INFO - Identified as a content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:10:07,495 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-katalog_lektura_boska_komedia_raj.txt.
+2024-11-12 02:10:08,495 - INFO - Crawling completed.
+2024-11-12 02:10:08,495 - INFO - Visited 4 pages.
+2024-11-12 02:10:34,498 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:10:34,672 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:10:35,085 - ERROR - Unexpected data format from parser for URL: https://en.wikipedia.org/wiki/Wiki
+2024-11-12 02:10:36,085 - INFO - Crawling completed.
+2024-11-12 02:10:36,086 - INFO - Visited 0 pages.
+2024-11-12 02:12:05,780 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:12:05,924 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:12:06,332 - ERROR - Unexpected data format from parser for URL: https://en.wikipedia.org/wiki/Wiki
+2024-11-12 02:12:07,332 - INFO - Crawling completed.
+2024-11-12 02:12:07,332 - INFO - Visited 0 pages.
+2024-11-12 02:13:25,519 - INFO - Fetching: https://en.wikipedia.org/wiki/Wiki (Origin: https://en.wikipedia.org/wiki/Wiki)
+2024-11-12 02:13:25,664 - INFO - Fetched robots.txt from https://en.wikipedia.org/robots.txt
+2024-11-12 02:13:26,073 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Wiki__Wikipedia.txt.
+2024-11-12 02:13:27,074 - INFO - Crawling completed.
+2024-11-12 02:13:27,074 - INFO - Visited 1 pages.
+2024-11-12 02:14:06,298 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:14:06,520 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:14:06,897 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus__Wikipedia_wolna_encyklopedia.txt.
+2024-11-12 02:14:07,898 - INFO - Crawling completed.
+2024-11-12 02:14:07,898 - INFO - Visited 1 pages.
+2024-11-12 02:15:53,272 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:15:53,420 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:15:53,802 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus__Wikipedia_wolna_encyklopedia.txt.
+2024-11-12 02:15:54,803 - INFO - Crawling completed.
+2024-11-12 02:15:54,803 - INFO - Visited 1 pages.
+2024-11-12 02:16:22,159 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:16:22,275 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:16:22,646 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus__Wikipedia_wolna_encyklopedia.txt.
+2024-11-12 02:16:23,647 - INFO - Crawling completed.
+2024-11-12 02:16:23,647 - INFO - Visited 1 pages.
+2024-11-12 02:18:20,211 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:18:20,325 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:18:20,701 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:18:21,702 - INFO - Crawling completed.
+2024-11-12 02:18:21,702 - INFO - Visited 1 pages.
+2024-11-12 02:21:25,191 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:21:25,309 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:22:18,599 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:22:18,714 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:22:19,082 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:22:20,083 - INFO - Crawling completed.
+2024-11-12 02:22:20,083 - INFO - Visited 1 pages.
+2024-11-12 02:24:28,367 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:24:28,481 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:24:28,857 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:24:30,708 - INFO - Fetching: https://pl.wikipedia.org/wiki/God_of_War (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:24:30,914 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-God_of_War.txt.
+2024-11-12 02:24:34,064 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:24:34,269 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:24:35,440 - INFO - Fetching: https://pl.wikipedia.org/wiki/Gigantomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:24:35,629 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Gigantomachia.txt.
+2024-11-12 02:24:37,037 - INFO - Fetching: https://pl.wikipedia.org/wiki/Tytanomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:24:37,240 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Tytanomachia.txt.
+2024-11-12 02:24:38,660 - INFO - Fetching: https://pl.wikipedia.org/wiki/Afrodyta (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:24:38,914 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Afrodyta.txt.
+2024-11-12 02:24:40,714 - INFO - Crawling completed.
+2024-11-12 02:24:40,714 - INFO - Visited 6 pages.
+2024-11-12 02:26:50,328 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:26:50,473 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:26:50,845 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:26:52,718 - INFO - Fetching: https://pl.wikipedia.org/wiki/God_of_War (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:26:52,922 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-God_of_War.txt.
+2024-11-12 02:26:54,821 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:26:55,027 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:26:56,198 - INFO - Fetching: https://pl.wikipedia.org/wiki/2005_w_grach_komputerowych (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:26:56,905 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-2005_w_grach_komputerowych.txt.
+2024-11-12 02:26:58,130 - INFO - Fetching: https://pl.wikipedia.org/wiki/Gigantomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:26:59,323 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Gigantomachia.txt.
+2024-11-12 02:27:00,729 - INFO - Fetching: https://pl.wikipedia.org/wiki/2._ceremonia_wr%C4%99czenia_nagr%C3%B3d_British_Academy_Games_Awards (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:27:02,989 - INFO - Crawling completed.
+2024-11-12 02:27:02,989 - INFO - Visited 6 pages.
+2024-11-12 02:27:40,045 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:27:40,160 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:27:40,529 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:27:42,379 - INFO - Fetching: https://pl.wikipedia.org/wiki/God_of_War (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:27:42,582 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-God_of_War.txt.
+2024-11-12 02:27:44,382 - INFO - Fetching: https://pl.wikipedia.org/wiki/Kot_domowy (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:27:44,768 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Kot_domowy.txt.
+2024-11-12 02:27:47,656 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:27:47,864 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:27:49,032 - INFO - Fetching: https://pl.wikipedia.org/wiki/2005_w_grach_komputerowych (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:27:49,311 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-2005_w_grach_komputerowych.txt.
+2024-11-12 02:27:50,530 - INFO - Fetching: https://pl.wikipedia.org/wiki/B%C3%B3br_kanadyjski (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:27:50,817 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bóbr_kanadyjski.txt.
+2024-11-12 02:27:53,751 - INFO - Crawling completed.
+2024-11-12 02:27:53,752 - INFO - Visited 6 pages.
+2024-11-12 02:28:18,327 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:28:18,440 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:28:18,809 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:28:20,669 - INFO - Fetching: https://pl.wikipedia.org/wiki/God_of_War (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:28:20,870 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-God_of_War.txt.
+2024-11-12 02:28:22,673 - INFO - Fetching: https://pl.wikipedia.org/wiki/Kot_domowy (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:28:23,061 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Kot_domowy.txt.
+2024-11-12 02:28:24,968 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:28:25,000 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:28:25,441 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:28:25,442 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:28:25,442 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:28:25,442 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:28:25,442 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:28:25,442 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:28:26,442 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:28:26,650 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:28:27,819 - INFO - Fetching: https://pl.wikipedia.org/wiki/2005_w_grach_komputerowych (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:28:28,098 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-2005_w_grach_komputerowych.txt.
+2024-11-12 02:28:29,340 - INFO - Fetching: https://pl.wikipedia.org/wiki/B%C3%B3br_kanadyjski (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:28:29,611 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bóbr_kanadyjski.txt.
+2024-11-12 02:28:31,551 - INFO - Crawling completed.
+2024-11-12 02:28:31,552 - INFO - Visited 6 pages.
+2024-11-12 02:28:41,358 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:28:41,475 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:28:41,844 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:28:43,692 - INFO - Fetching: https://pl.wikipedia.org/wiki/God_of_War (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:28:43,894 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-God_of_War.txt.
+2024-11-12 02:28:45,694 - INFO - Fetching: https://pl.wikipedia.org/wiki/Kot_domowy (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:28:46,073 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Kot_domowy.txt.
+2024-11-12 02:28:47,917 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:28:47,951 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:28:48,343 - INFO - Identified as a list page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:28:48,343 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:28:48,344 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 02:28:48,344 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-pieklo.html
+2024-11-12 02:28:48,344 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-czysciec.html
+2024-11-12 02:28:48,344 - DEBUG - Extracted lektury URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-raj.html
+2024-11-12 02:28:49,345 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:28:49,549 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:28:50,719 - INFO - Fetching: https://pl.wikipedia.org/wiki/2005_w_grach_komputerowych (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:28:50,999 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-2005_w_grach_komputerowych.txt.
+2024-11-12 02:28:52,241 - INFO - Fetching: https://pl.wikipedia.org/wiki/B%C3%B3br_kanadyjski (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:28:52,509 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bóbr_kanadyjski.txt.
+2024-11-12 02:28:54,489 - INFO - Crawling completed.
+2024-11-12 02:28:54,489 - INFO - Visited 6 pages.
+2024-11-12 02:44:31,387 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:44:31,531 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:44:31,903 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:44:33,750 - INFO - Fetching: https://pl.wikipedia.org/wiki/God_of_War (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:44:33,951 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-God_of_War.txt.
+2024-11-12 02:44:35,777 - INFO - Fetching: https://pl.wikipedia.org/wiki/Kot_domowy (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:44:36,157 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Kot_domowy.txt.
+2024-11-12 02:44:38,000 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:44:38,032 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:44:38,517 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:44:38,518 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:44:39,518 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:44:39,724 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:44:40,893 - INFO - Fetching: https://pl.wikipedia.org/wiki/2005_w_grach_komputerowych (Origin: https://pl.wikipedia.org/wiki/God_of_War)
+2024-11-12 02:44:41,170 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-2005_w_grach_komputerowych.txt.
+2024-11-12 02:44:42,411 - INFO - Fetching: https://pl.wikipedia.org/wiki/B%C3%B3br_kanadyjski (Origin: https://pl.wikipedia.org/wiki/Kot_domowy)
+2024-11-12 02:44:42,690 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bóbr_kanadyjski.txt.
+2024-11-12 02:44:44,887 - INFO - Crawling completed.
+2024-11-12 02:44:44,888 - INFO - Visited 6 pages.
+2024-11-12 02:45:04,592 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:45:04,706 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:45:05,077 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:45:06,957 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:45:06,986 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:45:07,362 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:45:07,363 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:45:08,363 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:45:08,570 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:45:09,736 - INFO - Fetching: https://pl.wikipedia.org/wiki/Gigantomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:45:09,924 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Gigantomachia.txt.
+2024-11-12 02:45:11,343 - INFO - Fetching: https://pl.wikipedia.org/wiki/Tytanomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:45:11,542 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Tytanomachia.txt.
+2024-11-12 02:45:12,988 - INFO - Fetching: https://pl.wikipedia.org/wiki/Amazonomachia (Origin: https://pl.wikipedia.org/wiki/Gigantomachia)
+2024-11-12 02:45:13,279 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Amazonomachia.txt.
+2024-11-12 02:45:14,917 - INFO - Fetching: https://pl.wikipedia.org/wiki/Afrodyta (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:45:15,168 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Afrodyta.txt.
+2024-11-12 02:45:16,930 - INFO - Crawling completed.
+2024-11-12 02:45:16,930 - INFO - Visited 6 pages.
+2024-11-12 02:47:08,022 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:47:08,206 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:47:08,572 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:47:10,437 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:47:10,471 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:47:10,899 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:47:10,899 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:47:11,900 - INFO - Fetching: https://pl.wikipedia.org/wiki/Bogowie_olimpijscy (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:47:12,109 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Bogowie_olimpijscy.txt.
+2024-11-12 02:47:13,277 - INFO - Fetching: https://pl.wikipedia.org/wiki/Gigantomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:47:13,470 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Gigantomachia.txt.
+2024-11-12 02:47:14,890 - INFO - Fetching: https://pl.wikipedia.org/wiki/Tytanomachia (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:47:15,091 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Tytanomachia.txt.
+2024-11-12 02:47:16,515 - INFO - Fetching: https://pl.wikipedia.org/wiki/Amazonomachia (Origin: https://pl.wikipedia.org/wiki/Gigantomachia)
+2024-11-12 02:47:16,696 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Amazonomachia.txt.
+2024-11-12 02:47:17,992 - INFO - Fetching: https://pl.wikipedia.org/wiki/Afrodyta (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:47:18,241 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Afrodyta.txt.
+2024-11-12 02:47:20,055 - INFO - Crawling completed.
+2024-11-12 02:47:20,056 - INFO - Visited 6 pages.
+2024-11-12 02:54:55,327 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:54:55,590 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:54:55,963 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:54:56,963 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:54:56,999 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:54:58,397 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:54:58,648 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 02:54:59,648 - INFO - Crawling completed.
+2024-11-12 02:54:59,649 - INFO - Visited 2 pages.
+2024-11-12 02:58:48,009 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 02:58:48,122 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 02:58:48,375 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 02:58:49,376 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 02:58:49,405 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 02:58:49,778 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:58:49,778 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 02:58:50,779 - INFO - Crawling completed.
+2024-11-12 02:58:50,779 - INFO - Visited 1 pages.
+2024-11-12 03:00:20,714 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:00:20,968 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:00:21,228 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:00:22,228 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:00:22,260 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:00:22,659 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:00:22,660 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:00:23,660 - INFO - Crawling completed.
+2024-11-12 03:00:23,660 - INFO - Visited 1 pages.
+2024-11-12 03:00:42,671 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:00:42,786 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:00:43,158 - WARNING - Parser returned no data for URL: https://pl.wikipedia.org/wiki/Zeus
+2024-11-12 03:00:44,158 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:00:44,189 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:00:44,553 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:00:44,553 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:00:45,553 - INFO - Crawling completed.
+2024-11-12 03:00:45,553 - INFO - Visited 0 pages.
+2024-11-12 03:00:54,037 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:00:54,150 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:00:54,523 - WARNING - Parser returned no data for URL: https://pl.wikipedia.org/wiki/Zeus
+2024-11-12 03:00:55,524 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:00:55,556 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:00:55,923 - WARNING - Nieznany typ strony dla URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:00:55,924 - WARNING - Parser returned no data for URL: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:00:56,925 - INFO - Crawling completed.
+2024-11-12 03:00:56,925 - INFO - Visited 0 pages.
+2024-11-12 03:04:05,422 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:04:05,536 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:04:05,977 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:04:06,977 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:04:07,008 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:04:08,404 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:04:08,575 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:04:09,576 - INFO - Crawling completed.
+2024-11-12 03:04:09,576 - INFO - Visited 2 pages.
+2024-11-12 03:05:55,850 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:05:55,994 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:05:56,374 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:05:57,375 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:05:57,405 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:05:58,777 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:05:58,876 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:05:59,876 - INFO - Crawling completed.
+2024-11-12 03:05:59,877 - INFO - Visited 2 pages.
+2024-11-12 03:08:32,206 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:08:32,321 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:08:32,705 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:08:33,706 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:08:33,825 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:08:35,215 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:08:35,394 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:08:36,394 - INFO - Crawling completed.
+2024-11-12 03:08:36,395 - INFO - Visited 2 pages.
+2024-11-12 03:12:38,253 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:12:38,398 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:12:38,779 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:12:39,780 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:12:39,810 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:12:40,203 - INFO - Identified as main page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:12:40,204 - DEBUG - Extracted lektura URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:12:41,204 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:12:41,358 - INFO - Identified as content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:12:41,374 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:12:42,374 - INFO - Crawling completed.
+2024-11-12 03:12:42,374 - INFO - Visited 2 pages.
+2024-11-12 03:16:05,947 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:16:06,059 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:16:06,444 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:16:07,445 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:16:07,481 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:16:09,000 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:16:09,188 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:16:10,189 - INFO - Crawling completed.
+2024-11-12 03:16:10,189 - INFO - Visited 2 pages.
+2024-11-12 03:16:44,704 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:16:44,819 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:16:45,203 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:16:46,204 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:16:46,233 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:16:47,617 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:16:47,721 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:16:48,722 - INFO - Crawling completed.
+2024-11-12 03:16:48,722 - INFO - Visited 2 pages.
+2024-11-12 03:17:07,316 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:17:07,429 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:17:07,815 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:17:08,815 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:17:08,847 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:17:09,239 - INFO - Identified as main page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:17:09,239 - DEBUG - Extracted lektura URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:17:10,239 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:17:10,339 - INFO - Identified as content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:17:10,355 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:17:11,356 - INFO - Crawling completed.
+2024-11-12 03:17:11,356 - INFO - Visited 2 pages.
+2024-11-12 03:19:37,686 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:19:37,829 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:19:38,215 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:19:39,215 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:19:39,248 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:19:39,743 - INFO - Identified as main page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:19:39,743 - DEBUG - Extracted lektura URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:19:40,744 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:19:40,883 - INFO - Identified as content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:19:40,899 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:19:41,899 - INFO - Crawling completed.
+2024-11-12 03:19:41,900 - INFO - Visited 2 pages.
+2024-11-12 03:19:53,669 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:19:53,784 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:19:54,169 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:19:55,170 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:19:55,204 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:19:55,628 - INFO - Identified as main page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:19:55,629 - DEBUG - Extracted lektura URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:19:56,629 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:19:56,777 - INFO - Identified as content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:19:56,793 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:19:57,793 - INFO - Crawling completed.
+2024-11-12 03:19:57,794 - INFO - Visited 2 pages.
+2024-11-12 03:24:55,368 - INFO - Fetching: https://pl.wikipedia.org/wiki/Zeus (Origin: https://pl.wikipedia.org/wiki/Zeus)
+2024-11-12 03:24:55,511 - INFO - Fetched robots.txt from https://pl.wikipedia.org/robots.txt
+2024-11-12 03:24:55,900 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\wiki-Zeus.txt.
+2024-11-12 03:24:56,900 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia/ (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:24:56,933 - INFO - Fetched robots.txt from https://wolnelektury.pl/robots.txt
+2024-11-12 03:24:57,331 - INFO - Identified as main page: https://wolnelektury.pl/katalog/lektura/boska-komedia/
+2024-11-12 03:24:57,332 - DEBUG - Extracted lektura URL: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:24:58,332 - INFO - Fetching: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html (Origin: https://wolnelektury.pl/katalog/lektura/boska-komedia/)
+2024-11-12 03:24:58,471 - INFO - Identified as content page: https://wolnelektury.pl/katalog/lektura/boska-komedia-wstep.html
+2024-11-12 03:24:58,488 - INFO - Dodano tekst do c:\Users\kzegl\Desktop\WebCrawler\data\lektura-boska-komedia-wstep.txt.
+2024-11-12 03:24:59,489 - INFO - Crawling completed.
+2024-11-12 03:24:59,489 - INFO - Visited 2 pages.

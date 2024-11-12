@@ -1,123 +1,138 @@
-# crawler/lektury_parser.py
-
 import re
-import requests
 from bs4 import BeautifulSoup
-from ebooklib import epub
-from io import BytesIO
-from modules.logger import logger
 from urllib.parse import urljoin, urlparse
+import logging
+
+logger = logging.getLogger('WebCrawler')
 
 class LekturyParser:
     def parse(self, content, base_url):
-        # Zapisz pobrany HTML do pliku dla debugowania (opcjonalnie)
-        # with open('fetched_lektura_page.html', 'w', encoding='utf-8') as f:
-        #     f.write(content)
-        
-        # Parse the HTML content to extract the title and author
-        title, author = self.extract_title_author(content)
-        if not title:
-            logger.warning(f"Could not extract title from page: {base_url}")
+        soup = BeautifulSoup(content, 'html.parser')
+
+        if self.is_main_page(soup):
+            logger.info(f"Identified as main page: {base_url}")
+            lektura_url = self.extract_lektura_url(soup, base_url)
+            if lektura_url:
+                return [lektura_url], 'lektura_link'
+            else:
+                logger.warning(f"No lektura URL found on main page: {base_url}")
+                return None, None
+        elif self.is_content_page(soup):
+            logger.info(f"Identified as content page: {base_url}")
+            text, metadata = self.extract_content(soup, base_url)
+            return (text, metadata), 'text'
+        else:
+            logger.warning(f"Unknown page type for URL: {base_url}")
             return None, None
 
-        # Generowanie slugu na podstawie tytułu i autora
-        slug = self.generate_slug(title, author)
-        if not slug:
-            logger.warning(f"Could not generate slug for title: {title}")
-            return None, None
+    def is_main_page(self, soup):
+        return bool(soup.find('ul', class_='l-aside__zbiory'))
 
-        # Tworzenie bezpośredniego linku do pliku EPUB
-        epub_url = f"https://wolnelektury.pl/media/book/epub/{slug}.epub"
-        logger.info(f"Generated EPUB URL: {epub_url}")
+    def is_content_page(self, soup):
+        return bool(soup.find('div', id='book-text'))
 
-        # Pobranie i wyodrębnienie tekstu z pliku EPUB
-        text = self.download_and_extract_epub(epub_url)
-        if not text:
-            logger.warning(f"Could not download or extract text from EPUB file: {epub_url}")
-            return None, None
-
-        # Czyszczenie tekstu
-        data = self.clean_text(text)
-
-        # Przygotowanie metadanych
-        metadata = self.extract_metadata(title, author, base_url)
-
-        return data, metadata
-
-    def extract_title_author(self, html_content):
-        soup = BeautifulSoup(html_content, 'html.parser')
-        
-        # Przykładowe selektory - dostosuj je do rzeczywistej struktury strony
-        # Zakładam, że tytuł jest w tagu <h1> z klasą 'title'
-        # a autor w tagu <a> z klasą 'author'
-        title_tag = soup.find('h1', class_='title')
-        author_tag = soup.find('a', class_='author')
-        
-        title = title_tag.get_text(strip=True) if title_tag else None
-        author = author_tag.get_text(strip=True) if author_tag else None
-
-        return title, author
-
-    def generate_slug(self, title, author):
-        if not title:
+    def extract_lektura_url(self, soup, base_url):
+        ul = soup.find('ul', class_='l-aside__zbiory')
+        if not ul:
+            logger.warning("Missing <ul class='l-aside__zbiory'>.")
             return None
 
-        # Funkcja do usuwania polskich znaków
-        def remove_polish_characters(text):
-            polish_chars = {
-                'ą': 'a', 'ć': 'c', 'ę': 'e', 'ł': 'l', 'ń': 'n',
-                'ó': 'o', 'ś': 's', 'ź': 'z', 'ż': 'z',
-                'Ą': 'A', 'Ć': 'C', 'Ę': 'E', 'Ł': 'L', 'Ń': 'N',
-                'Ó': 'O', 'Ś': 'S', 'Ź': 'Z', 'Ż': 'Z'
-            }
-            return ''.join(polish_chars.get(c, c) for c in text)
-
-        # Usunięcie polskich znaków z tytułu i autora
-        title_clean = remove_polish_characters(title.lower())
-        author_clean = remove_polish_characters(author.lower()) if author else ''
-
-        # Zamiana spacji i znaków specjalnych na myślniki
-        title_slug = re.sub(r'[^a-z0-9]+', '-', title_clean).strip('-')
-        author_slug = re.sub(r'[^a-z0-9]+', '-', author_clean).strip('-') if author_clean else ''
-
-        if author_slug:
-            slug = f"{author_slug}-{title_slug}"
-        else:
-            slug = title_slug
-
-        return slug
-
-    def download_and_extract_epub(self, epub_url):
-        try:
-            response = requests.get(epub_url, timeout=20)
-            if response.status_code == 200:
-                book = epub.read_epub(BytesIO(response.content))
-                text = ''
-                for item in book.get_items():
-                    if item.get_type() == epub.ITEM_DOCUMENT:
-                        content = item.get_content().decode('utf-8', errors='ignore')
-                        soup = BeautifulSoup(content, 'html.parser')
-                        text += soup.get_text(separator='\n')
-                return text
-            else:
-                logger.warning(f"Failed to download EPUB file: {epub_url} (Status Code: {response.status_code})")
-        except Exception as e:
-            logger.error(f"Error downloading or parsing EPUB file: {e}")
+        first_li = ul.find('li')
+        if first_li:
+            a_tag = first_li.find('a', href=True)
+            if a_tag:
+                href = a_tag['href']
+                if href.endswith('/'):
+                    href = href[:-1] + '.html'
+                else:
+                    href = href + '.html'
+                absolute_url = urljoin(base_url, href)
+                logger.debug(f"Extracted lektura URL: {absolute_url}")
+                return absolute_url
+        logger.warning("No link found in the first <li> in <ul class='l-aside__zbiory'>.")
         return None
 
+    def extract_content(self, soup, base_url):
+        book_text_div = soup.find('div', id='book-text')
+        if not book_text_div:
+            logger.warning(f"Missing <div id='book-text'> on page {base_url}")
+            return "", {}
+
+        self.remove_unwanted_elements(book_text_div)
+
+        text = self.clean_text(book_text_div.get_text(separator='\n', strip=True))
+        metadata = self.extract_metadata(soup, base_url)
+
+        return text.strip(), metadata
+
+    def remove_unwanted_elements(self, book_text_div):
+        for toc in book_text_div.find_all(class_='table_of_contents'):
+            toc.decompose()
+
+        for editorial_note in book_text_div.find_all('div', class_='editorial'):
+            editorial_note.decompose()
+
+        unwanted_phrases = [
+            "Informacja o zmianach we",
+            "Spis treści",
+        ]
+        for p in book_text_div.find_all(['p', 'div']):
+            text = p.get_text(strip=True)
+            if any(text.startswith(phrase) for phrase in unwanted_phrases):
+                p.decompose()
+
+        for footnote in book_text_div.find_all('div', class_='footnotes'):
+            footnote.decompose()
+
+        for ed_footnote in book_text_div.find_all(['p', 'div']):
+            text = ed_footnote.get_text(strip=True)
+            if '[przypis edytorski]' in text:
+                ed_footnote.decompose()
+
+        for element in book_text_div.find_all():
+            if not element.get_text(strip=True):
+                element.decompose()
+
+    def extract_metadata(self, soup, base_url):
+        metadata = {}
+
+        metadata['URL'] = base_url
+
+        title_tag = soup.find('h1', class_='chapter-title')
+        if title_tag:
+            metadata['Title'] = self.clean_text(title_tag.get_text())
+        else:
+            metadata['Title'] = ''
+
+        author_tag = soup.find('a', class_='author')
+        if author_tag:
+            metadata['Author'] = self.clean_text(author_tag.get_text())
+        else:
+            metadata['Author'] = ''
+
+        metadata['Categories'] = []
+        metadata['Keywords'] = []
+
+        html_tag = soup.find('html')
+        if html_tag and 'lang' in html_tag.attrs:
+            metadata['Language'] = html_tag['lang']
+        else:
+            metadata['Language'] = 'pl'
+
+        metadata['Content-Type'] = 'Lektura'
+
+        return metadata
+
     def clean_text(self, text):
-        # Usuwanie nadmiarowych białych znaków
         text = re.sub(r'\s+', ' ', text).strip()
+        text = text.replace('. ', '.\n')
         return text
 
-    def extract_metadata(self, title, author, base_url):
-        metadata = {}
-        metadata['URL'] = base_url
-        metadata['Title'] = title
-        metadata['Author'] = author if author else ''
-        metadata['Date'] = ''  # Możesz dodać logikę do ekstrakcji daty, jeśli jest dostępna
-        metadata['Categories'] = []  # Możesz dodać logikę do ekstrakcji kategorii, jeśli jest dostępna
-        metadata['Keywords'] = []  # Możesz dodać logikę do ekstrakcji słów kluczowych, jeśli jest dostępna
-        metadata['Language'] = 'pl'
-        metadata['Content-Type'] = 'Lektura'
-        return metadata
+    def is_valid_url(self, url, base_url):
+        parsed_base = urlparse(base_url)
+        parsed_url = urlparse(url)
+        return (
+            parsed_url.netloc == parsed_base.netloc
+            and '/katalog/lektura/' in parsed_url.path
+            and not re.search(r'/katalog/lektura/(wstep|plik|kategoria|specjalna|pomoc|portal|dyskusja|szablon):', parsed_url.path, re.IGNORECASE)
+        )

@@ -1,74 +1,66 @@
-# crawler/storage.py
-
 import os
 import re
-import hashlib
 from urllib.parse import urlparse, unquote
+from modules.logger import logger
 
 class Storage:
     def __init__(self):
-        # Ścieżka do katalogu danych
         project_dir = os.path.dirname(os.path.dirname(__file__))
         self.data_dir = os.path.join(project_dir, 'data')
         os.makedirs(self.data_dir, exist_ok=True)
 
     def save(self, text, metadata, base_url):
-        # Usunięcie nieczytelnych znaków, zachowując znaki nowej linii
         text = ''.join(c for c in text if c.isprintable() or c == '\n')
-        # Usunięcie nadmiarowych spacji na końcu linii
         lines = [line.rstrip() for line in text.splitlines()]
         text = '\n'.join(lines)
 
-        # Generowanie nazwy pliku na podstawie domeny i nazwy artykułu
-        filename = self.generate_filename(base_url)
-
+        filename = self.generate_filename(base_url, metadata)
         file_path = os.path.join(self.data_dir, filename + '.txt')
 
-        # Przygotowanie metadanych do zapisu
-        metadata_lines = []
-        metadata_lines.append(f"URL: {metadata.get('URL', '')}")
-        metadata_lines.append(f"Title: {metadata.get('Title', '')}")
-        metadata_lines.append(f"Date: {metadata.get('Date', '')}")
-        metadata_lines.append(f"Author: {metadata.get('Author', '')}")
-        metadata_lines.append(f"Categories: {', '.join(metadata.get('Categories', []))}")
-        metadata_lines.append(f"Keywords: {', '.join(metadata.get('Keywords', []))}")
-        metadata_lines.append(f"Language: {metadata.get('Language', '')}")
-        metadata_lines.append(f"Content-Type: {metadata.get('Content-Type', '')}")
-
+        metadata_lines = [
+            f"URL: {metadata.get('URL', '')}",
+            f"Title: {metadata.get('Title', '')}",
+            f"Date: {metadata.get('Date', '')}",
+            f"Author: {metadata.get('Author', '')}",
+            f"Categories: {', '.join(metadata.get('Categories', []))}",
+            f"Keywords: {', '.join(metadata.get('Keywords', []))}",
+            f"Language: {metadata.get('Language', '')}",
+            f"Content-Type: {metadata.get('Content-Type', '')}"
+        ]
         metadata_text = '\n'.join(metadata_lines)
 
-        # Połączenie metadanych i treści
         full_text = metadata_text + '\n\n' + text
 
-        # Zapisanie tekstu do pliku
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(full_text)
-        print(f"Dodano tekst do {file_path}.")
+        try:
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(full_text)
+            logger.info(f"Dodano tekst do {file_path}.")
+        except IOError as e:
+            logger.error(f"Błąd podczas zapisu do pliku {file_path}: {e}")
 
-    def generate_filename(self, base_url):
+    def generate_filename(self, base_url, metadata):
         parsed_url = urlparse(base_url)
         domain = parsed_url.netloc
-        path = parsed_url.path
 
-        # Wyodrębnienie nazwy artykułu z URL
-        article_name = os.path.basename(path)
-        article_name = unquote(article_name)  # Dekodowanie znaków URL (np. %C5%81 -> Ł)
-
-        # Oczyszczenie nazwy artykułu
-        article_name = self.sanitize_filename(article_name)
-
-        # Ustalenie prefiksu na podstawie domeny
-        if 'wikipedia.org' in domain:
-            prefix = 'wiki-'
-        elif 'lektury.gov.pl' in domain:
-            prefix = 'lektura-'
+        if 'wolnelektury.pl' in domain or 'lektury.gov.pl' in domain:
+            path = parsed_url.path
+            path = re.sub(r'^/katalog/lektura/', '', path)
+            path = path.rstrip('/').replace('.html', '')
+            sanitized_path = self.sanitize_filename(path)
+            filename = f"lektura-{sanitized_path}"
+        elif 'wikipedia.org' in domain:
+            article_name = parsed_url.path.split('/wiki/')[-1]
+            article_name = unquote(article_name)
+            sanitized_title = self.sanitize_filename(article_name)
+            filename = f"wiki-{sanitized_title}"
         else:
-            prefix = ''
+            path = parsed_url.path
+            path = re.sub(r'\.\w+$', '', path)
+            sanitized_path = re.sub(r'[/-]', '_', path.strip('/'))
+            filename = f"{sanitized_path}"
 
-        filename = f"{prefix}{article_name}"
         return filename
 
     def sanitize_filename(self, name):
-        # Usuwanie niedozwolonych znaków w nazwie pliku
         name = name.strip().replace(' ', '_')
-        return re.sub(r'[^\w\-_]', '', name)
+        return re.sub(r'[^\w\-_ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]', '', name)
