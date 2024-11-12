@@ -1,37 +1,29 @@
-# crawler/robots.py
-
-import requests
-import time
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from urllib.robotparser import RobotFileParser
 from modules.logger import logger
+import requests
 
 class RobotsHandler:
     def __init__(self):
-        self.robots_parsers = {}
+        self.parsers = {}
 
     def can_fetch(self, url, user_agent):
         parsed_url = urlparse(url)
-        domain = parsed_url.scheme + '://' + parsed_url.netloc
-        robots_url = domain + '/robots.txt'
-
-        if domain not in self.robots_parsers:
-            parser = RobotFileParser()
-            parser.set_url(robots_url)
+        base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
+        if base_url not in self.parsers:
+            robots_url = urljoin(base_url, '/robots.txt')
+            rp = RobotFileParser()
             try:
-                parser.read()
-                self.robots_parsers[domain] = parser
+                rp.set_url(robots_url)
+                rp.read()
+                self.parsers[base_url] = rp
+                logger.info(f"Fetched robots.txt from {robots_url}")
             except Exception as e:
-                logger.error(f"Error reading robots.txt from {robots_url}: {e}")
-                # Jeśli nie można odczytać robots.txt, lepiej zablokować dostęp
-                return False
+                logger.error(f"Failed to fetch robots.txt from {robots_url}: {e}")
+                self.parsers[base_url] = None
 
-            # Szanujemy opóźnienie crawl rate, jeśli jest określone
-            crawl_delay = parser.crawl_delay(user_agent)
-            if crawl_delay:
-                time.sleep(crawl_delay)
-
+        rp = self.parsers.get(base_url)
+        if rp:
+            return rp.can_fetch(user_agent, url)
         else:
-            parser = self.robots_parsers[domain]
-
-        return parser.can_fetch(user_agent, url)
+            return True
