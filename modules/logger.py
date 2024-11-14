@@ -1,28 +1,27 @@
 # modules/logger.py
 
 import logging
+import os
 
-def setup_logger():
-    logger = logging.getLogger('WebCrawler')
-    logger.setLevel(logging.DEBUG)  # Ustawienie globalnego poziomu na DEBUG
+# Utwórz logger
+logger = logging.getLogger('WebCrawler')
+logger.setLevel(logging.DEBUG)  # Ustaw poziom logowania na DEBUG dla pliku
 
-    # Konsola handler - tylko INFO i wyższe
-    ch = logging.StreamHandler()
-    ch.setLevel(logging.INFO)
+# Utwórz formatery
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-    # Plik handler - DEBUG i wyższe
-    fh = logging.FileHandler('crawler.log')
-    fh.setLevel(logging.DEBUG)
+# Utwórz handler dla pliku
+project_dir = os.path.dirname(os.path.dirname(__file__))
+log_file = os.path.join(project_dir, 'crawler.log')
+file_handler = logging.FileHandler(log_file)
+file_handler.setLevel(logging.DEBUG)  # Zapisuj wszystkie logi do pliku
+file_handler.setFormatter(formatter)
 
-    # Formatter
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    ch.setFormatter(formatter)
-    fh.setFormatter(formatter)
+# Utwórz handler dla konsoli
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)  # Wyświetlaj tylko INFO i wyższe na konsoli
+console_handler.setFormatter(formatter)
 
-    # Dodaj handler tylko jeśli nie zostały dodane wcześniej
-    if not logger.handlers:
-        logger.addHandler(ch)
-        logger.addHandler(fh)
-    return logger
-
-logger = setup_logger()
+# Dodaj handlery do loggera
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)

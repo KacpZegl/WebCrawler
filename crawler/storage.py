@@ -1,3 +1,5 @@
+# crawler/storage.py
+
 import os
 import re
 from urllib.parse import urlparse, unquote
@@ -8,6 +10,14 @@ class Storage:
         project_dir = os.path.dirname(os.path.dirname(__file__))
         self.data_dir = os.path.join(project_dir, 'data')
         os.makedirs(self.data_dir, exist_ok=True)
+        self.links_file = os.path.join(self.data_dir, 'extracted_links.txt')
+        self.saved_links = set()
+
+        # Wczytaj istniejące linki, aby uniknąć duplikatów
+        if os.path.exists(self.links_file):
+            with open(self.links_file, 'r', encoding='utf-8') as file:
+                for line in file:
+                    self.saved_links.add(line.strip())
 
     def save(self, text, metadata, base_url):
         text = ''.join(c for c in text if c.isprintable() or c == '\n')
@@ -37,6 +47,23 @@ class Storage:
             logger.info(f"Dodano tekst do {file_path}.")
         except IOError as e:
             logger.error(f"Błąd podczas zapisu do pliku {file_path}: {e}")
+
+    def save_links(self, links):
+        unique_links = [link for link in links if link not in self.saved_links]
+        if not unique_links:
+            logger.info("Brak nowych linków do zapisania.")
+            return unique_links  # Zwróć listę faktycznie dodanych linków
+
+        try:
+            with open(self.links_file, 'a', encoding='utf-8') as file:
+                for link in unique_links:
+                    file.write(link + '\n')
+                    self.saved_links.add(link)
+            logger.info(f"Zapisano {len(unique_links)} linków do {self.links_file}.")
+            return unique_links
+        except IOError as e:
+            logger.error(f"Błąd podczas zapisu linków do pliku {self.links_file}: {e}")
+            return []
 
     def generate_filename(self, base_url, metadata):
         parsed_url = urlparse(base_url)

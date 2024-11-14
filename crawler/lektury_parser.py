@@ -1,21 +1,25 @@
+# crawler/lektury_parser.py
+
 import re
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import logging
+from crawler.parser_base import ParserBase
 
 logger = logging.getLogger('WebCrawler')
 
-class LekturyParser:
-    def parse(self, content, base_url):
+class LekturyParser(ParserBase):
+    def parse(self, content, base_url, is_start_url):
         soup = BeautifulSoup(content, 'html.parser')
 
-        if self.is_main_page(soup):
-            logger.info(f"Identified as main page: {base_url}")
-            lektura_url = self.extract_lektura_url(soup, base_url)
-            if lektura_url:
-                return [lektura_url], 'lektura_link'
+        if is_start_url:
+            logger.info(f"Identified as START_URL: {base_url}")
+            related_links = self.extract_related_links(soup, base_url)
+            text, metadata = self.extract_content(soup, base_url)
+            if related_links or text:
+                return (related_links, (text, metadata)), 'start_url'
             else:
-                logger.warning(f"No lektura URL found on main page: {base_url}")
+                logger.warning(f"No related links or text found on START_URL: {base_url}")
                 return None, None
         elif self.is_content_page(soup):
             logger.info(f"Identified as content page: {base_url}")
@@ -25,32 +29,27 @@ class LekturyParser:
             logger.warning(f"Unknown page type for URL: {base_url}")
             return None, None
 
-    def is_main_page(self, soup):
-        return bool(soup.find('ul', class_='l-aside__zbiory'))
-
     def is_content_page(self, soup):
         return bool(soup.find('div', id='book-text'))
 
-    def extract_lektura_url(self, soup, base_url):
+    def extract_related_links(self, soup, base_url):
+        related_links = []
         ul = soup.find('ul', class_='l-aside__zbiory')
-        if not ul:
-            logger.warning("Missing <ul class='l-aside__zbiory'>.")
-            return None
-
-        first_li = ul.find('li')
-        if first_li:
-            a_tag = first_li.find('a', href=True)
-            if a_tag:
-                href = a_tag['href']
-                if href.endswith('/'):
-                    href = href[:-1] + '.html'
-                else:
-                    href = href + '.html'
-                absolute_url = urljoin(base_url, href)
-                logger.debug(f"Extracted lektura URL: {absolute_url}")
-                return absolute_url
-        logger.warning("No link found in the first <li> in <ul class='l-aside__zbiory'>.")
-        return None
+        if ul:
+            for li in ul.find_all('li'):
+                a_tag = li.find('a', href=True)
+                if a_tag:
+                    href = a_tag['href']
+                    absolute_url = urljoin(base_url, href)
+                    # Transformacja linków z wolnelektury.pl, aby kończyły się na .html
+                    parsed_url = urlparse(absolute_url)
+                    if 'wolnelektury.pl' in parsed_url.netloc:
+                        if not parsed_url.path.endswith('.html'):
+                            absolute_url = absolute_url.rstrip('/') + '.html'
+                            logger.debug(f"Przekształcono link do .html: {absolute_url}")
+                    if self.is_valid_url(absolute_url, base_url):
+                        related_links.append(absolute_url)
+        return related_links
 
     def extract_content(self, soup, base_url):
         book_text_div = soup.find('div', id='book-text')

@@ -1,14 +1,18 @@
+# crawler/wiki_parser.py
+
 import re
 from bs4 import BeautifulSoup, Comment
 from urllib.parse import urlparse, urljoin
 import logging
+from crawler.parser_base import ParserBase
 
 logger = logging.getLogger('WebCrawler')
 
-class WikiParser:
-    def parse(self, content, base_url):
+class WikiParser(ParserBase):
+    def parse(self, content, base_url, is_start_url):
         soup = BeautifulSoup(content, 'html.parser')
 
+        # Usuwanie skryptów, stylów i komentarzy
         for element in soup(["script", "style"]):
             element.decompose()
 
@@ -17,18 +21,30 @@ class WikiParser:
 
         self.remove_unwanted_elements(soup)
 
-        content_div = soup.find('div', id='mw-content-text')
-        if not content_div:
-            logger.warning(f"Brak głównej treści na stronie {base_url}")
-            return None, None
+        if is_start_url:
+            # Ekstrakcja linków z START_URL oraz zapis tekstu
+            logger.info(f"Identified as START_URL: {base_url}")
+            related_links = self.extract_related_links(soup, base_url)
+            text, metadata = self.extract_content(soup, base_url)
+            if related_links or text:
+                return (related_links, (text, metadata)), 'start_url'
+            else:
+                logger.warning(f"No related links or text found on START_URL: {base_url}")
+                return None, None
+        else:
+            # Ekstrakcja tekstu z extracted link
+            content_div = soup.find('div', id='mw-content-text')
+            if not content_div:
+                logger.warning(f"Brak głównej treści na stronie {base_url}")
+                return None, None
 
-        text, metadata = self.extract_data(content_div, base_url, soup)
+            text, metadata = self.extract_data(content_div, base_url, soup)
 
-        if not isinstance(text, str) or not isinstance(metadata, dict):
-            logger.error(f"Extracted data types are incorrect for URL: {base_url}")
-            return None, None
+            if not isinstance(text, str) or not isinstance(metadata, dict):
+                logger.error(f"Extracted data types are incorrect for URL: {base_url}")
+                return None, None
 
-        return (text, metadata), 'text'
+            return (text, metadata), 'text'
 
     def remove_unwanted_elements(self, soup):
         for ref in soup.find_all('sup', class_='reference'):
@@ -118,6 +134,27 @@ class WikiParser:
         content_text = content_text.strip()
 
         return content_text, metadata
+
+    def extract_content(self, soup, base_url):
+        content_div = soup.find('div', id='mw-content-text')
+        if not content_div:
+            logger.warning(f"Missing <div id='mw-content-text'> on page {base_url}")
+            return "", {}
+
+        text, metadata = self.extract_data(content_div, base_url, soup)
+        return text, metadata
+
+    def extract_related_links(self, soup, base_url):
+        related_links = []
+        # Przykładowa logika: zbierz wszystkie linki z treści artykułu
+        content_div = soup.find('div', id='mw-content-text')
+        if content_div:
+            for a_tag in content_div.find_all('a', href=True):
+                href = a_tag['href']
+                if href.startswith('/wiki/') and self.is_valid_url(urljoin(base_url, href), base_url):
+                    absolute_url = urljoin(base_url, href)
+                    related_links.append(absolute_url)
+        return related_links
 
     def is_valid_url(self, url, base_url):
         parsed_base = urlparse(base_url)

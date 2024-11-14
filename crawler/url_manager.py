@@ -1,51 +1,70 @@
+# crawler/url_manager.py
+
 from collections import deque
-from urllib.parse import urlparse
+from modules.logger import logger
 
 class URLManager:
-    def __init__(self, start_urls):
-        self.to_visit = {}  # origin_url -> deque of URLs
-        self.origin_order = deque()
+    def __init__(self, start_urls, extracted_pages_max):
+        self.start_urls = start_urls
+        self.extracted_pages_max = extracted_pages_max
+        self.start_queue = deque(start_urls)  # Kolejka START_URLS
+        self.extracted_queues = {url: deque() for url in start_urls}  # Kolejki EXTRACTED_URLS per START_URL
         self.visited = set()
-        
-        for url in start_urls:
-            self.to_visit[url] = deque([(url, url)])
-            self.origin_order.append(url)
+        self.in_queue = set(start_urls)  # Zestaw do szybkiego sprawdzania obecności URL-i
+        self.origin_urls = list(start_urls)  # Lista origin_urls do round-robin
+        self.last_origin_index = -1  # Indeks ostatniego origin_url użytego w round-robin
+        self.extracted_counts = {url: 0 for url in start_urls}  # Liczba ekstraktowanych linków per START_URL
 
     def has_urls(self):
-        return any(len(queue) > 0 for queue in self.to_visit.values())
-
-    def get_next_url(self):
-        num_origins = len(self.origin_order)
-        for _ in range(num_origins):
-            origin_url = self.origin_order[0]
-            queue = self.to_visit.get(origin_url, deque())
-
+        # Sprawdź, czy są URL-i do odwiedzenia w start_queue lub extracted_queues
+        if self.start_queue:
+            return True
+        for queue in self.extracted_queues.values():
             if queue:
-                url_item = queue.popleft()
-                self.origin_order.rotate(-1)
-                return url_item
-            else:
-                self.origin_order.rotate(-1)
-
-        return None
-
-    def add_urls(self, origin_url, urls):
-        if origin_url not in self.to_visit:
-            self.to_visit[origin_url] = deque()
-            self.origin_order.append(origin_url)
-        
-        for url in urls:
-            if url not in self.visited and not self.is_in_queue(url):
-                self.to_visit[origin_url].append((url, origin_url))
-
-    def is_in_queue(self, url):
-        for queue in self.to_visit.values():
-            if any(url == item[0] for item in queue):
                 return True
         return False
 
+    def get_next_url(self):
+        # Faza 1: Przetwarzanie START_URLS
+        if self.start_queue:
+            url = self.start_queue.popleft()
+            self.in_queue.remove(url)
+            logger.debug(f"Pobrano URL z start_queue: {url}")
+            return (url, url)  # origin_url jest samym URL-em
+
+        # Faza 2: Naprzemienne przetwarzanie EXTRACTED_URLS w round-robin
+        origin_count = len(self.origin_urls)
+        for i in range(origin_count):
+            next_index = (self.last_origin_index + 1 + i) % origin_count
+            origin_url = self.origin_urls[next_index]
+            queue = self.extracted_queues[origin_url]
+            if queue:
+                url = queue.popleft()
+                self.in_queue.remove(url)
+                self.last_origin_index = next_index
+                logger.debug(f"Pobrano URL z extracted_queues ({origin_url}): {url}")
+                return (url, origin_url)
+
+        return None
+
+    def add_extracted_url(self, origin_url, urls):
+        added_links = []
+        if self.extracted_counts[origin_url] >= self.extracted_pages_max:
+            logger.debug(f"Osiągnięto limit ekstrakcji dla START_URL: {origin_url}")
+            return added_links  # Osiągnięto limit ekstrakcji dla tego START_URL
+
+        for url in urls:
+            if self.extracted_counts[origin_url] >= self.extracted_pages_max:
+                logger.debug(f"Osiągnięto limit ekstrakcji dla START_URL: {origin_url} podczas dodawania linków.")
+                break  # Osiągnięto limit ekstrakcji dla tego START_URL
+            if url not in self.visited and url not in self.in_queue:
+                self.extracted_queues[origin_url].append(url)
+                self.in_queue.add(url)
+                self.extracted_counts[origin_url] += 1
+                added_links.append(url)
+                logger.debug(f"Dodano link: {url} do kolejki EXTRACTED_URLS dla START_URL: {origin_url}")
+        return added_links
+
     def mark_visited(self, url):
         self.visited.add(url)
-
-    def visited_count(self):
-        return len(self.visited)
+        logger.debug(f"Oznaczono jako odwiedzony: {url}")
