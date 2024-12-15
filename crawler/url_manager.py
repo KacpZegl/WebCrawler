@@ -49,13 +49,12 @@ class URLManager:
 
     def add_extracted_url(self, origin_url, urls):
         added_links = []
-        if self.extracted_counts[origin_url] >= self.extracted_pages_max:
-            logger.debug(f"Osiągnięto limit ekstrakcji dla START_URL: {origin_url}")
-            return added_links  # Osiągnięto limit ekstrakcji dla tego START_URL
+        if origin_url not in self.extracted_counts:
+            self.extracted_counts[origin_url] = 0
 
         for url in urls:
             if self.extracted_counts[origin_url] >= self.extracted_pages_max:
-                logger.debug(f"Osiągnięto limit ekstrakcji dla START_URL: {origin_url} podczas dodawania linków.")
+                logger.debug(f"Osiągnięto limit ekstrakcji dla START_URL: {origin_url}")
                 break  # Osiągnięto limit ekstrakcji dla tego START_URL
             if url not in self.visited and url not in self.in_queue:
                 self.extracted_queues[origin_url].append(url)

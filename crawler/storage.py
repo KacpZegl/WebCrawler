@@ -1,4 +1,4 @@
-# crawler/storage.py
+#storage.py
 
 import os
 import re
@@ -52,7 +52,7 @@ class Storage:
         unique_links = [link for link in links if link not in self.saved_links]
         if not unique_links:
             logger.info("Brak nowych linków do zapisania.")
-            return unique_links  # Zwróć listę faktycznie dodanych linków
+            return unique_links
 
         try:
             with open(self.links_file, 'a', encoding='utf-8') as file:
@@ -64,6 +64,16 @@ class Storage:
         except IOError as e:
             logger.error(f"Błąd podczas zapisu linków do pliku {self.links_file}: {e}")
             return []
+
+    def save_all_collected_links(self, links):
+        all_links_file = os.path.join(self.data_dir, 'all_collected_links.txt')
+        try:
+            with open(all_links_file, 'w', encoding='utf-8') as file:
+                for link in sorted(links):
+                    file.write(link + '\n')
+            logger.info(f"Zapisano {len(links)} linków do {all_links_file}.")
+        except IOError as e:
+            logger.error(f"Błąd podczas zapisu linków do {all_links_file}: {e}")
 
     def generate_filename(self, base_url, metadata):
         parsed_url = urlparse(base_url)
@@ -91,3 +101,8 @@ class Storage:
     def sanitize_filename(self, name):
         name = name.strip().replace(' ', '_')
         return re.sub(r'[^\w\-_ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]', '', name)
+
+    def is_already_saved(self, base_url, metadata):
+        filename = self.generate_filename(base_url, metadata)
+        file_path = os.path.join(self.data_dir, filename + '.txt')
+        return os.path.exists(file_path)
