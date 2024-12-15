@@ -1,5 +1,3 @@
-# crawler/wiki_parser.py
-
 import re
 from bs4 import BeautifulSoup, Comment
 from urllib.parse import urlparse, urljoin
@@ -93,9 +91,13 @@ class WikiParser(ParserBase):
         title_tag = soup.find('h1', id='firstHeading')
         metadata['Title'] = clean_text(title_tag.get_text()) if title_tag else ''
 
+        # Wyodrębnienie daty modyfikacji ze stopki (id="footer-info-lastmod")
         last_modified = soup.find('li', id='footer-info-lastmod')
         if last_modified:
             last_modified_text = last_modified.get_text()
+            # Zwykle tekst wygląda np. tak: "Strona ta została ostatnio edytowana 10 mar 2021, 14:50."
+            # Spróbujmy wyłuskać datę:
+            # Przykładowy wzorzec: r'ostatnio edytowano (.+)\.'
             date_match = re.search(r'ostatnio edytowano (.+)\.', last_modified_text)
             if date_match:
                 metadata['Date'] = clean_text(date_match.group(1))
